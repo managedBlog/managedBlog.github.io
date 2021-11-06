@@ -30,13 +30,13 @@ Deploying consistent applications across device types can be a time consuming ex
 
 ​To find the new guided scenarios select Troubleshooting + support and click on "Guided scenarios." Currently there are three scenarios available. I expect that as the MEM Admin Center matures that Microsoft will make additional scenarios available. I expect that both existing and new scenarios will offer expanded functionality and cover even more complex scenarios.
 
-![Guided Scenario Overview page](https://managedblog.github.io/assets/images/legacy/walkthrough/01-overview_orig.png "Overview")
+![Guided Scenario Overview page](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/01-overview_orig.png)
 
 ___
 
 ​​Each guided scenario is displayed on a card, with a brief description, link to learn more, and an estimated time to complete the scenario. To begin walking through a scenario click on start.
 
-![Guided Scenario Card](https://managedblog.github.io/assets/images/legacy/walkthrough/02-card.png "Secure Office Apps for Mobile Card")
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/legacy/walkthrough/02-card.png)
 
 ___
 
