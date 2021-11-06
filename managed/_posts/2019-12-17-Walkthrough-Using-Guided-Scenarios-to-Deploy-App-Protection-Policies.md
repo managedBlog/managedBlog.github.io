@@ -55,7 +55,7 @@ ___
 ​​On the Basics tab you are prompted to add a Prefix. The Prefix will be used to name the policies that are created through the guided scenario. Each of the policies created will be added to a policy set and have a standard name. This makes finding with the policies created through a guided scenario easy.
 
 <p align="center">
-    ![Mobile Apps Basics](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png "Mobile Apps Basic Information")
+    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png">
 </p>
 ___
 
@@ -67,7 +67,7 @@ ___
 
 If you click to add additional apps a flyout appears on the right side of the screen. The functionality is the same as user and group assignment screens on policies or application assignment. Applications selected at the top will appear on the selected apps list, apps can be removed by clicking "Remove" on the list at the bottom.
 
-[Selecting Mobile Apps](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/07-targeted-apps.png "Selecting Additional Applications")
+![Selecting Mobile Apps](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/07-targeted-apps.png "Selecting Additional Applications")
 
 ___
 
