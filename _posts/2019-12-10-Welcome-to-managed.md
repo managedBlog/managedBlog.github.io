@@ -20,6 +20,6 @@ I plan on using modernEndpoint.com as a place to share information, explore tech
 
 I hope that my blog – managed.modernEndpoint.com – and my collaborators' blogs – Scripted and Collaborative – will provide insight and value on how to manage solutions in the modern workplace.
 
-Thank you for visiting. Please follow me on Twitter (@managed_blog) for more updates!
+Thank you for visiting. Please follow us on Twitter (@managed_blog) for more updates!
 
 Sean Bulger
