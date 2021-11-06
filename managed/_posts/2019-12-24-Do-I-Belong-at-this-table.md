@@ -31,7 +31,7 @@ _This is the first post in a series on Impostor Syndrome among IT Pros. I will b
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption style="font-style: oblique; font-size:-2">Special thanks to David Whittaker (@rundavidrun) for use of this image! Reused with permission.</figcaption>
+  <figcaption style="font-style: oblique; font-size:-4; text-align:center">Special thanks to David Whittaker (@rundavidrun) for use of this image! Reused with permission.</figcaption>
 </figure>
 
 ​​### Do I belong at this table?
