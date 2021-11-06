@@ -42,7 +42,7 @@ ___
 
 When you start a scenario you are taken to an introduction page. The introduction offers a description of the scenario and the impact of deploying the scenario. In this case we can see that the policy will configure an App protection policy, require a PIN to launch, and require users to reset their PIN after 5 failed attempts.
 
-![Secure Office Apps Introduction](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/03-intro.png "Secure Office Apps for Mobile Introduction")
+{:.center}![Secure Office Apps Introduction](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/03-intro.png "Secure Office Apps for Mobile Introduction")
 
 ___
 
