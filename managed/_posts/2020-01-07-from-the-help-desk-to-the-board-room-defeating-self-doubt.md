@@ -1,6 +1,6 @@
 ---
 title: "From the Help Desk to the Board Room: Defeating Self Doubt"
-excerpt: ""For the first exercise Dr. Gervais asked us if we were interested in having an extraordinary individual experience. We all nodded yes. Then he moved on and asked for a volunteer to stand up. Only no one did …"
+excerpt: "_For the first exercise Dr. Gervais asked us if we were interested in having an extraordinary individual experience. We all nodded yes. Then he moved on and asked for a volunteer to stand up. Only no one did …_"
 header:
     overlay_image:
     teaser:
@@ -12,7 +12,8 @@ tags:
 _This is the third post in a planned five-part series on Impostor Series among IT Pros. Previous posts can be found here:_
 
 _[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
-<br>
+
+
 _[I Hope they don't find out](https://www.modernendpoint.com/managed/i-hope-they-dont-notice-why-we-experience-impostor-syndrome)_
 
 ___
