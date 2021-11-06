@@ -1,6 +1,6 @@
 ---
 title: "From the Help Desk to the Board Room: Defeating Self Doubt"
-excerpt: "_For the first exercise Dr. Gervais asked us if we were interested in having an extraordinary individual experience. We all nodded yes. Then he moved on and asked for a volunteer to stand up. Only no one did …_"
+excerpt: <i>"For the first exercise Dr. Gervais asked us if we were interested in having an extraordinary individual experience. We all nodded yes. Then he moved on and asked for a volunteer to stand up. Only no one did …"</i>
 header:
     overlay_image:
     teaser:
