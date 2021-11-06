@@ -12,14 +12,17 @@ gallery:
     image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/13-data-protection_th.png
     alt: "Data Protection Settings"
     title: "Data Protection Settings"
+    caption: "Data Protection Settings"
   - url: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/14-access-reqs_orig.png
     image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/14-access-reqs_th.png
     alt: "Access Requirements"
     title: "Access Requirements"
+    caption: "Access Requirements"
   - url: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/15-conditional-launch.png
     image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/15-conditional-th.png
     alt: "Conditional Launch"
     title: "Conditional Launch"
+    caption: "Conditional Launch"
 ---
 
 _Welcome to the managed.modernEndpoint.com blog! Posts will range from step by step walk throughs (like this one) to deep dives on topics I find interesting or am actively working on. I will also spend time discussing my perspective on Managing Modern Endpoints, a topic I am truly excited about!_
@@ -36,86 +39,68 @@ ___
 
 ​​Each guided scenario is displayed on a card, with a brief description, link to learn more, and an estimated time to complete the scenario. To begin walking through a scenario click on start.
 
-![Guide scenario card](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/02-card.png){: .align-center}
+![Guided scenario card](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/02-card.png){: .align-center}
 
 ___
 
 When you start a scenario you are taken to an introduction page. The introduction offers a description of the scenario and the impact of deploying the scenario. In this case we can see that the policy will configure an App protection policy, require a PIN to launch, and require users to reset their PIN after 5 failed attempts.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/03-intro.png" alt="Secure Office Apps for Mobile Introduction">
-</p>
+![Secure Office Apps for Mobile Introduction](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/03-intro.png){: .align-center}
 
 ___
 
 One of my favorite features of the Guided Scenarios (and several other pages on the new Admin Center) is that they use breadcrumbs to allow you to jump back and forth between pages. The blades that we saw on the Azure Portal got unwieldy. When you were several pages deep in a policy you couldn't easily go back and see what you had previously configured. Through the use of these breadcrumbs you can jump to any page you have already configured, review settings, and make changes. On the surface this is a small change, but it really does make the workflow much smoother.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/04-breadcrumb_orig.png" alt="Navigation Breadcrumbs">
-</p>
+
+!["Navigation Breadcrumbs](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/04-breadcrumb_orig.png){: .align-center}
 
 ___
 
 ​​On the Basics tab you are prompted to add a Prefix. The Prefix will be used to name the policies that are created through the guided scenario. Each of the policies created will be added to a policy set and have a standard name. This makes finding with the policies created through a guided scenario easy.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png" alt="Policy basic information tab">
-</p>
+![Policy basic information tab](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png){: .align-center}
+
 ___
 
 ​On the Apps tab you can select the applications you want to protect. There is a baseline set of Applications pre-selected. Click Next to accept the default set of applications, or click "+ Select Public Apps" to add additional applications.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/06-apps.png" alt="Mobile Apps Baseline">
-</p>
+![Mobile Apps Baseline](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/06-apps.png){: .align-center}
 
 ___
 
 If you click to add additional apps a flyout appears on the right side of the screen. The functionality is the same as user and group assignment screens on policies or application assignment. Applications selected at the top will appear on the selected apps list, apps can be removed by clicking "Remove" on the list at the bottom.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/07-targeted-apps.png" alt="Selecting Additional Applications">
-</p>
+![Selecting Additional Applications](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/07-targeted-apps.png){: .align-center}
 
 ___
 
 Help links open in a flyout similar to the application selection screen above rather than in a new tab. This includes the description and important notes. This is another small change that makes a big difference in the workflow
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/08-details-flyout.png" alt="Help text appears on a flyout">
-</p>
+![Help text appears on a flyout](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/08-details-flyout.png){: .align-center}
 
 ___
 
 The Configuration tab has settings that you can customize within a guided scenario. Currently there are only a handful of settings available in the Secure Office mobile apps scenario. When the app protection policies are created through the policy there is a full set of baseline settings that are set. This is one area that I would like to see built out further. I would like to see more Data Protection settings included, because those are the ones I feel I spend the most time on right now. This is a good start though, and helps you to get a feel for how these scenarios are designed.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/09-configuration.png" alt="App Protection Settings Configuration">
-</p>
+![App Protection Settings Configuration](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/09-configuration.png){: .align-center}
 
 ___
 
 The Assignments tab is very similar to most other Assignments tabs in the Azure console with one notable exception. There is only an option to Include groups. There is no option to exclude users or groups on this screen, so if your policy will have a high impact you need to be cautious not to assign the policy to users who should not be targeted.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/10-assignments.png" alt="Assigning App Protection Policies">
-</p>
+![Assigning App Protection Policies](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/10-assignments.png){: .align-center}
 
 ___
 
 The Review + create tab lets you confirm the settings you have configured. This is where the breadcrumbs at the top of the screen really shine. If you see settings that need to be updated before creating the policy you can quickly navigate to the correct page, update the setting, and return here to create the policies.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/11-review.png" alt="Review and create tab">
-</p>
+![Review and create tab](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/11-review.png){: .align-center}
 
 ___
 
 The confirmation page gives you details on what items were created. This guided scenario creates a policy set that includes the application protection policies that we just set up. I will take a deeper dive into the policy sets in a future post - but here we can see one that was automatically created and some of the policies that can be included.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/12-confirmation.png" alt="Confirming configured policies">
-</p>
+![Confirming configured policies](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/12-confirmation.png){: .align-center}
 
 ___
 
