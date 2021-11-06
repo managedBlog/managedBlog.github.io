@@ -42,13 +42,17 @@ ___
 
 When you start a scenario you are taken to an introduction page. The introduction offers a description of the scenario and the impact of deploying the scenario. In this case we can see that the policy will configure an App protection policy, require a PIN to launch, and require users to reset their PIN after 5 failed attempts.
 
-![Secure Office Mobile Introduction](https://managedblog.github.io/assets/images/legacy/walkthrough/03-intro.png "Secure Office Apps for Mobile Introduction")
+!(https://managedblog.github.io/assets/images/legacy/walkthrough/03-intro.png "Secure Office Apps for Mobile Introduction")
 
 ___
 
 One of my favorite features of the Guided Scenarios (and several other pages on the new Admin Center) is that they use breadcrumbs to allow you to jump back and forth between pages. The blades that we saw on the Azure Portal got unwieldy. When you were several pages deep in a policy you couldn't easily go back and see what you had previously configured. Through the use of these breadcrumbs you can jump to any page you have already configured, review settings, and make changes. On the surface this is a small change, but it really does make the workflow much smoother.
 
 ![Navigation Breadcrumbs](https://managedblog.github.io/assets/images/legacy/walkthrough/04-breadcrumb_orig.png "Navigation Breadcrumbs")
+<figure style="width: 300px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/legacy/walkthrough/04-breadcrumb_orig.png" alt="Navigation Breadcrumbs">
+  <figcaption>Feels good to be right all the time.</figcaption>
+</figure> 
 
 ___
 
