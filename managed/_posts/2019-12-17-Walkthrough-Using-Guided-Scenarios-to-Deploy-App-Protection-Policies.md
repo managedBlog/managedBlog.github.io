@@ -42,20 +42,21 @@ ___
 
 When you start a scenario you are taken to an introduction page. The introduction offers a description of the scenario and the impact of deploying the scenario. In this case we can see that the policy will configure an App protection policy, require a PIN to launch, and require users to reset their PIN after 5 failed attempts.
 
-->![Secure Office Apps Introduction](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/03-intro.png "Secure Office Apps for Mobile Introduction")<-
+![Secure Office Apps Introduction](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/03-intro.png#center "Secure Office Apps for Mobile Introduction")
 
 ___
 
 One of my favorite features of the Guided Scenarios (and several other pages on the new Admin Center) is that they use breadcrumbs to allow you to jump back and forth between pages. The blades that we saw on the Azure Portal got unwieldy. When you were several pages deep in a policy you couldn't easily go back and see what you had previously configured. Through the use of these breadcrumbs you can jump to any page you have already configured, review settings, and make changes. On the surface this is a small change, but it really does make the workflow much smoother.
 
-![Navigation Breadcrumbs](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/04-breadcrumb_orig.png#center "Navigation Breadcrumbs")
+![Navigation Breadcrumbs](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/04-breadcrumb_orig.png "Navigation Breadcrumbs")
 
 ___
 
 ​​On the Basics tab you are prompted to add a Prefix. The Prefix will be used to name the policies that are created through the guided scenario. Each of the policies created will be added to a policy set and have a standard name. This makes finding with the policies created through a guided scenario easy.
 
-![Mobile Apps Basics](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png "Mobile Apps Basic Information")
-
+<p align="center">
+    ![Mobile Apps Basics](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png "Mobile Apps Basic Information")
+</p>
 ___
 
 ​On the Apps tab you can select the applications you want to protect. There is a baseline set of Applications pre-selected. Click Next to accept the default set of applications, or click "+ Select Public Apps" to add additional applications.
