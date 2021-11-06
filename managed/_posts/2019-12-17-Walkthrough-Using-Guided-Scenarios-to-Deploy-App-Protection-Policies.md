@@ -36,7 +36,7 @@ ___
 
 ​​Each guided scenario is displayed on a card, with a brief description, link to learn more, and an estimated time to complete the scenario. To begin walking through a scenario click on start.
 
-![Guided Scenario Overview page](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/02-card.png)
+![image-center](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/02-card.png)
 
 ___
 
