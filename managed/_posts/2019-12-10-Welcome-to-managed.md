@@ -1,6 +1,8 @@
 ---
 title: "Welcome to managed."
 excerpt: "I am Sean Bulger, an IT Pro working in the Modern Endpoint Management workspace."
+classes: wide
+layout: single
 header:
     teaser:
 tags:
