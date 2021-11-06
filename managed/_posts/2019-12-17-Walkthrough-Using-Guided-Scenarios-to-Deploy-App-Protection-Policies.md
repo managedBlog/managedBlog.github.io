@@ -30,18 +30,13 @@ Deploying consistent applications across device types can be a time consuming ex
 
 ​To find the new guided scenarios select Troubleshooting + support and click on "Guided scenarios." Currently there are three scenarios available. I expect that as the MEM Admin Center matures that Microsoft will make additional scenarios available. I expect that both existing and new scenarios will offer expanded functionality and cover even more complex scenarios.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/01-overview_orig.png" alt="Guided scenarios in the MEM admin center">
-</p>
-
 ![Guided scenarios in the MEM admin center](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/01-overview_orig.png){: .align-center}
+
 ___
 
 ​​Each guided scenario is displayed on a card, with a brief description, link to learn more, and an estimated time to complete the scenario. To begin walking through a scenario click on start.
 
-<p align="center">
-    <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/05-basics.png" alt="Policy basic information tab">
-</p>
+![Guide scenario card](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/02-card.png){: .align-center}
 
 ___
 
