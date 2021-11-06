@@ -5,22 +5,8 @@ header:
     overlay_image:
     teaser:
 tags:
-  - Microsoft Endpoint Manager
-  - Intune
+  - Impostor Syndrome
   - About Me
-gallery:
-  - url: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/13-data-protection_orig.png
-    image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/13-data-protection_th.png
-    alt: "Data Protection Settings"
-    title: "Data Protection Settings"
-  - url: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/14-access-reqs_orig.png
-    image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/14-access-reqs_th.png
-    alt: "Access Requirements"
-    title: "Access Requirements"
-  - url: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/15-conditional-launch.png
-    image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/15-conditional-th.png
-    alt: "Conditional Launch"
-    title: "Conditional Launch"
 ---
 
 _This is the first post in a series on Impostor Syndrome among IT Pros. I will be talking about my journey, the people who have inspired me, and how we can deal with this common challenge that faces many of us._

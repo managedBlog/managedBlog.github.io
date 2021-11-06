@@ -6,7 +6,6 @@ header:
 tags:
   - Microsoft Endpoint Manager
   - Intune
-  - About Me
 gallery:
   - url: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/13-data-protection_orig.png
     image_path: https://managedblog.github.io/managed/assets/images/legacy/walkthrough/13-data-protection_th.png
