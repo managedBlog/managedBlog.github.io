@@ -54,7 +54,7 @@ The Oxford Dictionary defines Impostor Syndrome as, “the persistent inability 
  
 I had heard of Impostor Syndrome before; I had even thought I may have been experiencing it, but now there was another IT Pro standing here talking about my demons. That voice inside of me saying that I didn’t belong at the table with Kent, Matthew, and Rion was textbook Impostor Syndrome. One of the greatest challenges of Impostor Syndrome is that it makes you feel like you are all alone. There is an ever-present fear of being exposed as a fraud. It creates a feeling of isolation and keeps you from speaking up, even when you know you have something to contribute.
  
-A recent study by Blind found that 58% of IT professionals have experienced Impostor Syndrome at least once in their career, but it is only now starting to really be discussed. In future blog posts I will dive more into my personal experiences, how those contributed to my Impostor Syndrome, and strategies for combating it.
+[A recent study by Blind](https://www.teamblind.com/blog/index.php/2018/09/05/58-percent-of-tech-workers-feel-like-impostors/) found that 58% of IT professionals have experienced Impostor Syndrome at least once in their career, but it is only now starting to really be discussed. In future blog posts I will dive more into my personal experiences, how those contributed to my Impostor Syndrome, and strategies for combating it.
  
 The consensus is that the first step to dealing with Impostor Syndrome is to acknowledge it. Becoming more active in the community is my next step. I hope to contribute my perspective, engage with other IT Pros, and learn from the best and brightest minds in Modern Endpoint Management. We all have something to contribute and lots to learn.
  
