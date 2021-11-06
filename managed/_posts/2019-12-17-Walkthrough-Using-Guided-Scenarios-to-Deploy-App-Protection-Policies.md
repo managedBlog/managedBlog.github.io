@@ -34,6 +34,7 @@ Deploying consistent applications across device types can be a time consuming ex
     <img src="https://managedblog.github.io/managed/assets/images/legacy/walkthrough/01-overview_orig.png" alt="Guided scenarios in the MEM admin center">
 </p>
 
+![Guided scenarios in the MEM admin center](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/01-overview_orig.png){: .align-center}
 ___
 
 ​​Each guided scenario is displayed on a card, with a brief description, link to learn more, and an estimated time to complete the scenario. To begin walking through a scenario click on start.
