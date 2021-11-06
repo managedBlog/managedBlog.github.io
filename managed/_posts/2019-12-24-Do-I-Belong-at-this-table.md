@@ -34,8 +34,9 @@ _This is the first post in a series on Impostor Syndrome among IT Pros. I will b
   <figcaption style="font-style: oblique; font-size:-4; text-align:center">Special thanks to David Whittaker (@rundavidrun) for use of this image! Reused with permission.</figcaption>
 </figure>
 
-​​### Do I belong at this table?
- 
+​​Do I belong at this table?
+-------
+
 At a recent event I was sitting at a table with several Microsoft team members and customers. We all had one thing in common – a love for Microsoft’s Modern Endpoint Management solutions. While I looked around the table, I started keeping score in my head. On my right were two MVPs – Matthew Hudson and Kent Agerlund. To my right was another IT Pro from a Microsoft Partner. Rion was one of the most engaging and charismatic members of the community I have had the pleasure of meeting. The rest of the table was filled with members of the Endpoint Management team at Microsoft – from engineers to project managers.
  
 Everyone at the table was someone whom I looked up to. They were all very accomplished professionals. I had used their blogs and technical articles to build my own environment. A lot of doubt began to creep in. How did I get here? How do I stack up to the other people sitting at this table? Do I have anything to offer to the conversation? What perspective do I have to offer that the other people sitting here can’t give? It was immediately obvious to me that I didn’t have the breadth of experience or depth of knowledge of the other professionals I was sitting with. My credentials didn’t seem to measure up to theirs, and I began to question my experience.
