@@ -1,6 +1,6 @@
 ---
-title: "Do I belong at this table?"
-excerpt: "At a recent event I was sitting at a table with several Microsoft team members and customers. We all had one thing in common – a love for Microsoft’s Modern Endpoint Management solutions."
+title: "Practical Powershell part 3: Basic scripts - on with the show!"
+excerpt: "As we modernize, we will find a greater need to rely on PowerShell for managing users, devices, and licenses in the cloud. While the Administrative consoles give us access to most functionality, some controls aren’t exposed in the UI..."
 header:
     overlay_image:
     teaser:
