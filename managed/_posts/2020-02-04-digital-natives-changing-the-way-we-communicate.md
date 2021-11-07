@@ -33,24 +33,29 @@ Traditionally we would write documentation that was targeted towards end users w
 So how can we engage digital natives in our communications today?
 
 * **Skip the most basic step-by-step instructions.**
+
 Digital natives won’t read your documentation if it’s too basic. Users that need detailed step-by-step instructions are going to reach out for support regardless of how detailed your documentation is. Your time is valuable and will be better spent writing documentation that more users will find to be relevant.
 
 * **Give users instructions, but don’t get lost in the weeds.**
+
 This goes hand-in-hand with the first item on this list. If a user needs you to screenshot the Windows icon to show them how to open the start menu then your documentation will never be detailed enough. Most users understand how to open an application. Skip ahead to more relevant details or consider using a graphic to call out important functionality.
  
 Give your users the benefit of the doubt, otherwise people may think you are talking down to them.
 
 * **Take cues from popular websites.**
+
 Most blogs, support documentation, or technical articles start out by introducing a topic. You probably read this introduction and decide whether this article includes the content you need. Your end users do the same thing. Spend a paragraph or two explaining the “why” before jumping into the details.
  
 You can even take this one step further. If you’re spending a lot of time creating end user documentation from scratch, you’re probably focusing your efforts in the wrong area. Microsoft (and other vendors) typically have an abundance of user-facing documentation available. Much of this content is also customizable. By using this pre-canned documentation, you can focus your time writing content that more of your users will find valuable.
 
 * **Include a Frequently Asked Questions page (and make it relevant).**
+
 If you’re deploying Microsoft Intune for mobile device and application management users are going to have some questions. Users are going to want to know what personal data an administrator can see, why they need to install specific applications, and why their devices must meet minimum security controls.
  
 Don’t bury those topics in documentation your users may not finish reading. Collect the top 5-10 questions you expect users to ask and provide concise, but well thought out answers to those questions. Keep your FAQs updated and make sure that any other common questions get added if necessary.
 
 * **Don’t be afraid to get a little technical.**
+
 This is an area I am working on. Remember digital natives “learn through hypertext.” They are naturally curious – especially when it comes to technology. Some of your users are going to want to understand the way things work, or why a specific decision was made.
  
 If a user has always used the native mail app on their Android phone, they may want to know why you want them to install Outlook mobile. Traditionally the answer would have been, “because of security.” That answer may work for some users, but you will inevitably have someone who asks why. You can explain to your end users that their native mail app doesn’t support Modern Authentication, and if they want to know more give them a few links to understand why legacy authentication is less secure.
@@ -58,6 +63,7 @@ If a user has always used the native mail app on their Android phone, they may w
 This will empower your end users to learn more. You will have enriched their technology experience, provided more relevant documentation, and become a more trusted advisor in the process. As a bonus, more technical content doubles as training material for less experienced help desk users that want to learn more.
 
 * **Gather stats on your documentation and adjust your plan accordingly.**
+
 _There had to be a hidden workplace modernization message in this post somewhere! Here it is!_
  
 If we are moving towards modern management solutions, we have to make data driven decisions. Many of the tools we use for internal communications can track which links users are clicking on and how much time they spend reading your documentation. This will help you to identify what communications strategy is most effective in your environment. Find out what communications engage your users.What works for me may not work for you. Don’t be afraid to create your own strategy and adjust it based on what your users prefer.

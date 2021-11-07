@@ -65,37 +65,37 @@ After you have downloaded and updated WimWitch, you are ready to dive into the p
  
 2. Mount the language pack and FOD media that you plan on using (do not mount the Windows ISO). There are two separate ISOs for the Features on Demand, but in most cases all of the FODs you will need are on the first ISO.
 
-![Mounting WimWitch media](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/02mountmedia_orig.jpg){: .align-center}
+    ![Mounting WimWitch media](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/02mountmedia_orig.jpg){: .align-center}
 
 ____
 
 3. _Import Wim + .Net tab_ – When you are creating a new WIM file the first step is to create a Wim file from source media. Click the select button and browse to your Windows 10 media. Check the box to import .Net media and your install.wim file. Enter a name and click Import. This is a good time to mention that if you keep the Powershell window visible in the background you can see a status of what WimWitch is doing. In this case we can see the steps being done when create a WIM.
 
-![WimWitch Creating WIM](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/03mountmedia.jpg){: .align-center}
+    ![WimWitch Creating WIM](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/03mountmedia.jpg){: .align-center}
 
 ____
 
 4. _Source WIM tab_ – The Source WIM tab is where the magic begins. Click the select button and browse to the WIM file you created above. When you select and image a window will appear. Select the index you want available in your WIM. In this case I am using the Windows 10 Professional Index.
 
-![Selecting image index](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/04asourcewim.jpg){: .align-center}
+    ![Selecting image index](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/04asourcewim.jpg){: .align-center}
 
-After selecting the Index, the information for the selected index will appear in the window:​
+    After selecting the Index, the information for the selected index will appear in the window:​
 
-![Selected index show on Source WIM tab](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/04bwimported.jpg){: .align-center}
+    ![Selected index show on Source WIM tab](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/04bwimported.jpg){: .align-center}
 
 ____
 
 5. _Import LP + FOD tab_ – This tab is where we tell WimWitch where to find our source content. Use the drop downs to select the options you want to import. In this case we want to import language packs from our Language pack ISO. The language packs are stored in [x64 or x86]\langpacks\ in the source media.​
 
-![Selecting path on source media](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05aimportpath.jpg){: .align-center}
+    ![Selecting path on source media](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05aimportpath.jpg){: .align-center}
 
-A selection box will appear. Select the languages you want to inject and click Ok.
+    A selection box will appear. Select the languages you want to inject and click Ok.
 
-![Select desired languages](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05bselectlangs.jpg){: .align-center}
+    ![Select desired languages](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05bselectlangs.jpg){: .align-center}
 
-The languages you selected will appear in the list box. Click Import to Import your language packs.​
+    The languages you selected will appear in the list box. Click Import to Import your language packs.​
 
-![Languages selected and ready for import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05cimportlangs.jpg){: .align-center}
+    ![Languages selected and ready for import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05cimportlangs.jpg){: .align-center}
 
 ____
 
