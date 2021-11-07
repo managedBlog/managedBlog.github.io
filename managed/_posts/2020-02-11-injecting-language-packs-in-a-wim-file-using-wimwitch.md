@@ -67,13 +67,13 @@ After you have downloaded and updated WimWitch, you are ready to dive into the p
 
     ![Mounting WimWitch media](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/02mountmedia_orig.jpg){: .align-center}
 
-____
+ ____
 
 3. _Import Wim + .Net tab_ – When you are creating a new WIM file the first step is to create a Wim file from source media. Click the select button and browse to your Windows 10 media. Check the box to import .Net media and your install.wim file. Enter a name and click Import. This is a good time to mention that if you keep the Powershell window visible in the background you can see a status of what WimWitch is doing. In this case we can see the steps being done when create a WIM.
 
     ![WimWitch Creating WIM](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/03mountmedia.jpg){: .align-center}
 
-____
+ ____
 
 4. _Source WIM tab_ – The Source WIM tab is where the magic begins. Click the select button and browse to the WIM file you created above. When you select and image a window will appear. Select the index you want available in your WIM. In this case I am using the Windows 10 Professional Index.
 
@@ -83,7 +83,7 @@ ____
 
     ![Selected index show on Source WIM tab](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/04bwimported.jpg){: .align-center}
 
-____
+ ____
 
 5. _Import LP + FOD tab_ – This tab is where we tell WimWitch where to find our source content. Use the drop downs to select the options you want to import. In this case we want to import language packs from our Language pack ISO. The language packs are stored in [x64 or x86]\langpacks\ in the source media.​
 
@@ -97,93 +97,93 @@ ____
 
     ![Languages selected and ready for import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/05cimportlangs.jpg){: .align-center}
 
-____
+ ____
 
 6. _Import Features on Demand_ – Features on Demand work similar to language packs, but there is one slight difference. Select the Features on Demand option and click select to browse to your source media. In this case you are selecting the root of the ISO.
 
-![Selecting FOD source path](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/06afodspath.jpg){: .align-center}
+    ![Selecting FOD source path](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/06afodspath.jpg){: .align-center}
 
-With the Language Packs you were given the option to select which languages you want to import. Because of the differences media that method isn’t as practical for Features on Demand. All the available FODs will be added to the list box. Click Import to Import the files.
+    With the Language Packs you were given the option to select which languages you want to import. Because of the differences media that method isn’t as practical for Features on Demand. All the available FODs will be added to the list box. Click Import to Import the files.
 
-![Importing FODs](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/06bimportfods.jpg){: .align-center}
+    ![Importing FODs](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/06bimportfods.jpg){: .align-center}
 
-____
+ ____
 
 7. _Customization tab_ – The customizations tab is used to tell WimWitch exactly which customizations to apply to a Wim in this step. You will see in a later step how I use this differently when creating a WIM versus when I am updating the media. Check the boxes for the customizations you want to make. In this case I want to inject .Net, Language Packs, and FODs in my baseline media.​
 
-![Customizations tab](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07acusttab.jpg){: .align-center}
+    ![Customizations tab](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07acusttab.jpg){: .align-center}
 
-Click Select to select the language packs you want to import. You will see the language packs you previously selected available here:
+    Click Select to select the language packs you want to import. You will see the language packs you previously selected available here:
 
-![Select language packs to import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07bselectlangscust.jpg){: .align-center}
+    ![Select language packs to import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07bselectlangscust.jpg){: .align-center}
 
-Click Select for the FODs. Here you will see all of the FODs from the media available. You can filter by using the Filter box at the top of the screen. If you have multiple languages you need to import this can be done in multiple steps. Each time you select features it adds to the list:
+    Click Select for the FODs. Here you will see all of the FODs from the media available. You can filter by using the Filter box at the top of the screen. If you have multiple languages you need to import this can be done in multiple steps. Each time you select features it adds to the list:
 
-![Select FODs to import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07cselectfodsimp.jpg){: .align-center}
+    ![Select FODs to import](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07cselectfodsimp.jpg){: .align-center}
 
-After setting all of your customizations, you are ready to inject them into your WIM.
+    After setting all of your customizations, you are ready to inject them into your WIM.
 
-![All customizations selected](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07dallcusts.jpg){: .align-center}
+    ![All customizations selected](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/07dallcusts.jpg){: .align-center}
 
-____
+ ____
 
 8. _Save/Load tab_ – At this point we are ready to save our baseline configuration. This tutorial focuses specifically on languages and features on demand, so I skipped over some other options like injecting drivers, removing Windows apps (seriously a great feature!) and injecting an Autopilot json file. I create a separate configuration file for each of my baseline WIMs. This allows me to create baseline media quickly in the future.
  
-Enter a name for the configuration file and click Save. It will save the configuration in the WimWitch\Configs folder.
+    Enter a name for the configuration file and click Save. It will save the configuration in the WimWitch\Configs folder.
 
-![Saving configurations](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/08saveconfig.jpg){: .align-center}
+    ![Saving configurations](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/08saveconfig.jpg){: .align-center}
 
-____
+ ____
 
 9. Alright Number One – _Make it so_ ­– ­We’ve given WimWitch a bunch of stuff to do, now it’s time to let her do what she does best! Enter a file name and select a destination path for your Wim. This tab also includes several text boxes that tell us what customizations we have set. When you are ready to add the customizations to your WIM click the Make It So button.​
 
-![Make it so](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/09asavingbaseline.jpg){: .align-center}
+    ![Make it so](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/09asavingbaseline.jpg){: .align-center}
 
-If we watch the status window we can see the progress that WimWitch is making.
+    If we watch the status window we can see the progress that WimWitch is making.
 
-![Watching status bars](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/09bcreationstatus_orig.jpg){: .align-center}
+    ![Watching status bars](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/09bcreationstatus_orig.jpg){: .align-center}
 
-After all customizations have been made and the Wim has been dismounted, we can see the media is available in the Completed WIMs folder. There is also a verbose log file that is created in this folder.
+    After all customizations have been made and the Wim has been dismounted, we can see the media is available in the Completed WIMs folder. There is also a verbose log file that is created in this folder.
 
-![Completed WIM saved](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/09ccreatedfiles_orig.jpg){: .align-center}
+    ![Completed WIM saved](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/09ccreatedfiles_orig.jpg){: .align-center}
 
-____
+ ____
 
 10. Now that we have created our baseline media, we can apply updates to the image. The first step when applying updates is to make sure they have been downloaded. Go to the Update Store tab, select Windows 10 and the OS version you want to update and click Download. In the PowerShell windows we can see the status of the update process, including checking for updates from OS Deploy.​
 
-![Completed WIM saved](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/10downloadupdates.jpg){: .align-center}
+    ![Completed WIM saved](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/10downloadupdates.jpg){: .align-center}
 
-____
+ ____
 
 11. _Source WIM_ – We want to make sure we update the WIM file that we just created and injected our language packs and FODs in. Go to the Source WIM tab and change the path to our new file. The Languages text box shows the languages we just injected into the WIM.​
 
-![Source WIM to update](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/11changesourcewim.jpg){: .align-center}
+    ![Source WIM to update](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/11changesourcewim.jpg){: .align-center}
 
-____
+ ____
 
 12. _Customizations tab (part two!)_ – We have already injected our language packs, FODs, and .Net binaries in our image. Remove the checks for those items. We want to update the WIM on this pass, so we will check that box.
 
-![Source WIM to update](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/12customizationsagain.jpg){: .align-center}
+    ![Source WIM to update](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/12customizationsagain.jpg){: .align-center}
 
-____
+ ____
 
 13. Return to the Save/Load tab and save the new customizations. We will be able to use this customization for patching all our images in the future. Provided all the baselines are configured the same you should only need to save one configuration file for updating all your WIM files.
 
 14. After saving your configuration file, return to the Make It So tab. Confirm your customizations are correct and click Make it So to apply updates to the image.​
 
-![Applying updates to the image](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/14makingitso2.jpg){: .align-center}
+    ![Applying updates to the image](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/14makingitso2.jpg){: .align-center}
 
-____
+ ____
 
 15. WimWitch will mount the image, apply updates, and then dismount the image. The PowerShell window lets us watch the status.​
 
-![Image Update status](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/15updatingstatus_orig.jpg){: .align-center}
+    ![Image Update status](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/15updatingstatus_orig.jpg){: .align-center}
 
-____
+ ____
 
 16. Once the updates have been completed, we can see both WIM files in the Completed WIMs folder. You can now use the WIM file to add an image in Microsoft Endpoint Manager. If you are updating an existing image copy the content to the source folder and update your distribution points.
 
-![Completed and updated WIMs saved](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/16finalwims_orig.jpg){: .align-center}
+    ![Completed and updated WIMs saved](https://managedblog.github.io/managed/assets/images/legacy/WimWitch/16finalwims_orig.jpg){: .align-center}
 
 
 
