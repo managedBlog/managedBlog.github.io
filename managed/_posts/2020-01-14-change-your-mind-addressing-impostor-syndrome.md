@@ -1,6 +1,6 @@
 ---
 title: "Change Your Mind: Addressing Impostor Syndrome"
-excerpt: "At a recent event I was sitting at a table with several Microsoft team members and customers. We all had one thing in common – a love for Microsoft’s Modern Endpoint Management solutions."
+excerpt: "What people want is to walk into the room feeling like an impostor and to walk out of the room not feeling like an impostor. That’s not how it works. In fact, feelings are the last to change. "
 header:
     overlay_image:
     teaser:

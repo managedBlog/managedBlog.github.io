@@ -10,7 +10,7 @@ tags:
 
 _This is my latest post on the challenges faced by IT pros in the Modern Workplace, where I examine how changes in technology and business impact Modern Endpoint Managers and other technical professionals. [The first post in the series can be found here](https://www.modernendpoint.com/managed/its-not-you-its-me-examining-our-role-in-transforming-endpoint-management)._
 
-![Guide scenario card](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/royandmaurice.jpg){: .align-center}
+![Roy and Maurice](https://managedblog.github.io/managed/assets/images/legacy/royandmaurice.jpg){: .align-center}
 
 “Hello … IT. Have you tried turning it off and on again?” Roy and Maurice from the IT Crowd earned a special place in pop culture as the nerdy but lovable IT duo who personified a stereotype in the early 2000s.
 
@@ -26,8 +26,6 @@ With that came the next evolution in the IT field. Felicity Smoak in Arrow looks
 ​
 So, what does any of this have to do with technical skills? Why does a change in the workforce necessitate change on our part? Why should any of this mean we should have to change?
 ​
-{::options parse_block_html="false" /}
-
 <div class="center">
 
 <blockquote class="twitter-tweet">
