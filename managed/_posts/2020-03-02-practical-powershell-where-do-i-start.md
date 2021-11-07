@@ -28,7 +28,7 @@ gallery2:
     title: "PowerShell ISE"
 ---
 
-_This post is the first in a series on PowerShell scripting for the SysAdmin who doesn't know where to begin. This series is designed to move quickly from PowerShell basics to advanced scripting techniques. It is meant as a guide, not a standalone resource._
+<small>_This post is the first in a series on PowerShell scripting for the SysAdmin who doesn't know where to begin. This series is designed to move quickly from PowerShell basics to advanced scripting techniques. It is meant as a guide, not a standalone resource._</small>
 
 ____
 
