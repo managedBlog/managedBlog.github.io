@@ -61,7 +61,7 @@ Cool. What does that mean?
 
 PowerShell uses simple commands that use a verb-noun pairing to execute code. These are called CmdLets. The command shell looks very similar to a stand command prompt. You can run individual CmdLets or group them together into a script.
 
-One of the unique features of PowerShell is the pipeline. You can run multiple CmdLets in a single string, passing the results from one CmdLet into the next using the pipeline character [|]. The pipeline is a powerful tool that allows you to run complex tasks quickly in a single line of code.
+One of the unique features of PowerShell is the pipeline. You can run multiple CmdLets in a single string, passing the results from one CmdLet into the next using the pipeline character [\|]. The pipeline is a powerful tool that allows you to run complex tasks quickly in a single line of code.
 
 An administrator can be very effective with PowerShell using only basic CmdLets or scripts found online. Learning how to customize or write your own scripts will change the way you approach many complex tasks. As with any scripting language, you can automate many repetitive tasks that will free up your time to dive into more complex issues.
 Scripts can be as simple as a single CmdLet saved for later use, a string of CmdLets that run in sequential order, or contain functions that allow you to call sections of your script with different parameters.
