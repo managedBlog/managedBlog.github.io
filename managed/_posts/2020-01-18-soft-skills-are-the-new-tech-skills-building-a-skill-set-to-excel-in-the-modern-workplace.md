@@ -8,7 +8,7 @@ tags:
   - Modern Workplace
 ---
 
-_This is my latest post on the challenges faced by IT pros in the Modern Workplace, where I examine how changes in technology and business impact Modern Endpoint Managers and other technical professionals. [The first post in the series can be found here](https://www.modernendpoint.com/managed/its-not-you-its-me-examining-our-role-in-transforming-endpoint-management)._
+<small>_This is my latest post on the challenges faced by IT pros in the Modern Workplace, where I examine how changes in technology and business impact Modern Endpoint Managers and other technical professionals. [The first post in the series can be found here](https://www.modernendpoint.com/managed/its-not-you-its-me-examining-our-role-in-transforming-endpoint-management)._</small>
 
 ![Roy and Maurice](https://managedblog.github.io/managed/assets/images/legacy/royandmaurice.jpg){: .align-center}
 
@@ -26,11 +26,13 @@ With that came the next evolution in the IT field. Felicity Smoak in Arrow looks
 ​
 So, what does any of this have to do with technical skills? Why does a change in the workforce necessitate change on our part? Why should any of this mean we should have to change?
 ​
+
 <div class="center">
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">Thoughts on adding motivational content into a talk?</p>— Gregor Suttie @ #MSIgniteTheTour London (@gregor_suttie) <a href="https://twitter.com/gregor_suttie/status/1217204952818421761?ref_src=twsrc%5Etfw">January 14, 2020</a>
 </blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
 
 I followed a recent Twitter thread where the original poster, [Gregor Suttie](https://twitter.com/gregor_suttie), asked people for, “Thoughts on adding motivational content into a talk?” I responded with an enthusiastic yes. You never know who you may inspire and what could come from speaking up. I was ultimately given the mental boost I needed to start blogging because Chris Thomas ([@AutomateMyStuff](https://twitter.com/AutomateMyStuff)) included some slides on Impostor Syndrome. He didn’t see it as motivational, but it made a difference for me.
 
@@ -50,23 +52,23 @@ In a recent Twitter skills chat documented by [Rob Shook on the IBM Training and
 
 **“How are skills needs changing in the workforce?”**
 
-*_“The skills needed in today’s world are changing in a lot of ways. I’ve realized employers are stressing EQ over IQ, and are stressing the importance of having a few skills that you’re really, really good at.”_
+* _“The skills needed in today’s world are changing in a lot of ways. I’ve realized employers are stressing EQ over IQ, and are stressing the importance of having a few skills that you’re really, really good at.”_
 
 **“Name the top skills needed in the workforce?”**
 
-*_“The number one skill needed in the workforce is the ability to communicate effectively and build strong relationships in order to create powerful team dynamics.”_
+* _“The number one skill needed in the workforce is the ability to communicate effectively and build strong relationships in order to create powerful team dynamics.”_
 
 **“How do you define soft skills?”**
 
-*_“Soft skills are interpersonal (people) skills. These are much harder to define and evaluate but are critical for success given today’s workforce challenges.”_
+* _“Soft skills are interpersonal (people) skills. These are much harder to define and evaluate but are critical for success given today’s workforce challenges.”_
 
 **“Why are soft skills needed in IT?”**
 
-*_“Soft skills are essential for driving successful business and user outcomes. As an HR professional, we often see soft skills over technical skills as the reason a manager chooses to hire or promote talent.”_
+* _“Soft skills are essential for driving successful business and user outcomes. As an HR professional, we often see soft skills over technical skills as the reason a manager chooses to hire or promote talent.”_
 
 **“What are the best ways to build soft skills?”**
 
-*_“There are many ways to learn about soft skills whether its reading books, TED Talks, or attending workshops, but the best way to build soft skills is to practice them. Openly and rigorously practicing soft skills are the best way to implement and build them.”_
+* _“There are many ways to learn about soft skills whether its reading books, TED Talks, or attending workshops, but the best way to build soft skills is to practice them. Openly and rigorously practicing soft skills are the best way to implement and build them.”_
 
 Our organizations are looking for Information Technology to partner with the business to provide solutions and build a more dynamic future. Most of us have worked at organizations where IT departments have had an adversarial relationship with the business. We have been a part of teams or worked with individuals where prevailing culture was that end users don’t get it. In these situations, it becomes culturally impossible for IT to listen first and provide workable solutions to our businesses.
 
