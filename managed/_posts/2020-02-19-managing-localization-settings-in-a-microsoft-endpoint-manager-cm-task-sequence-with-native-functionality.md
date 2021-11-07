@@ -48,7 +48,7 @@ Option 1 is clean. It is simple, elegant, and is the building block for Option 2
 
 3. When you run a task sequence, the settings you set will be applied to all computers built with this task sequence.
 
-![Apply Windows Settings](https://managedblog.github.io/managed/assets/images/legacy/walkthrough/01-03singleoption.jpg){: .align-center}
+![Apply Windows Settings](https://managedblog.github.io/managed/assets/images/legacy/CMNativeLang/01-03singleoption.jpg){: .align-center}
 
 ____
 
