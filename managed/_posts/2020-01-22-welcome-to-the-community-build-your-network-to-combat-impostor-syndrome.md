@@ -9,13 +9,13 @@ tags:
   - About Me
 ---
 
-<small>_This is the final blog post in my series on battling Impostor Syndrome among IT Pros. It has been an enlightening journey. You can start the series here:_
+<small>_This is the final blog post in my series on battling Impostor Syndrome among IT Pros. It has been an enlightening journey. You can start the series here:_</small>
 
-_[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
+<small>_[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_</small>
 
 ___
 
-_Full disclosure: I had written a post that I thought articulated my final point on Impostor Syndrome well. It was a rough draft, so it was subject to change – but I was confident enough to share it with Don Jones. I was hoping he would have a small insight to help drive my point home, instead he pulled out several points and gave me a different perspective. This post is similar, but far different from my original post._</small>
+<small>_Full disclosure: I had written a post that I thought articulated my final point on Impostor Syndrome well. It was a rough draft, so it was subject to change – but I was confident enough to share it with Don Jones. I was hoping he would have a small insight to help drive my point home, instead he pulled out several points and gave me a different perspective. This post is similar, but far different from my original post._</small>
 
 ___
 
