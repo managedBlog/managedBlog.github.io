@@ -25,7 +25,7 @@ url                      : "https://www.modernendpoint.com" # the base hostname 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/MME_Logo_Medium.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/MME_Logo_Hz.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/MMELogo_x175.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -217,7 +217,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /managed/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
