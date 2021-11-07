@@ -26,9 +26,11 @@ With that came the next evolution in the IT field. Felicity Smoak in Arrow looks
 ​
 So, what does any of this have to do with technical skills? Why does a change in the workforce necessitate change on our part? Why should any of this mean we should have to change?
 ​
+<div class="center">
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">Thoughts on adding motivational content into a talk?</p>— Gregor Suttie @ #MSIgniteTheTour London (@gregor_suttie) <a href="https://twitter.com/gregor_suttie/status/1217204952818421761?ref_src=twsrc%5Etfw">January 14, 2020</a>
-</blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8">
+</blockquote><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 I followed a recent Twitter thread where the original poster, [Gregor Suttie](https://twitter.com/gregor_suttie), asked people for, “Thoughts on adding motivational content into a talk?” I responded with an enthusiastic yes. You never know who you may inspire and what could come from speaking up. I was ultimately given the mental boost I needed to start blogging because Chris Thomas ([@AutomateMyStuff](https://twitter.com/AutomateMyStuff)) included some slides on Impostor Syndrome. He didn’t see it as motivational, but it made a difference for me.
 
