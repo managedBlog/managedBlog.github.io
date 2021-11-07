@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Blog"
-    url: https://www.modernendpoint.com/manages
-   - title: "About Me"
-     url: https://mmistakes.github.io/minimal-mistakes/about/
-   - title: "Github Repo"
-     url: https://github.com/managedBlog/hello-world
+    url: https://www.modernendpoint.com/managed
+  - title: "About Me"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Github Repo"
+    url: https://github.com/managedBlog/hello-world
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
