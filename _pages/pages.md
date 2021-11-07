@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 author_profile: false
 header:
-    image: /assets/images/MME_Logo_Hz_1400x350.jpg
+    image: https://managedblog.github.io/assets/images/MME_Logo_Hz_1400x350.png
 intro: 
     - excerpt: 'Exploring Modern Endpoint Management with Microsoft Endpoint Manager, Azure, and more.'
 feature_row:
