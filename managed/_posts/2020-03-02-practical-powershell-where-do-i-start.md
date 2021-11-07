@@ -74,11 +74,11 @@ That’s great – thanks for the lesson, but where do I begin?
 I suppose the best place to begin is by opening PowerShell.
 There are two native options built into Windows for using PowerShell – the PowerShell console, and the PowerShell ISE (Integrated Script Editor). At first glance, the console looks like a basic command line. It works well for running individual CmdLets or calling pre-canned scripts. 
 
-{% include gallery1 %}
+{% include gallery id="gallery1" %}
 
 I prefer to use the PowerShell ISE. It is a basic script editing utility that includes a console, a script editing pane, and a Command library. You can run single CmdLets by entering them in the console. You can open a script and edit it in the script pane. If you need to find a CmdLet you can search for Commands in the Command library. The ISE is a single tool that can be used for all of your PowerShell needs.
 
-{% include gallery2 %}
+{% include gallery id="gallery2" %}
 
 There are also third-party editors available for working with PowerShell. VS Code is a popular option used by many PowerShell enthusiasts, but for the sake of this series I will use the native tools available in the operating system. You can launch both environments by opening the Start menu and searching for PowerShell. 
 
