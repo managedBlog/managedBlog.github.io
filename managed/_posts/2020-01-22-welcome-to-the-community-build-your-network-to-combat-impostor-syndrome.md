@@ -9,7 +9,7 @@ tags:
   - About Me
 ---
 
-</small>_This is the final blog post in my series on battling Impostor Syndrome among IT Pros. It has been an enlightening journey. You can start the series here:_
+<small>_This is the final blog post in my series on battling Impostor Syndrome among IT Pros. It has been an enlightening journey. You can start the series here:_
 
 _[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
 
