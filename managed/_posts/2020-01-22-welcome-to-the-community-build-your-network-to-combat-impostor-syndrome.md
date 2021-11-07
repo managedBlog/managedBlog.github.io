@@ -9,13 +9,13 @@ tags:
   - About Me
 ---
 
-_This is the final blog post in my series on battling Impostor Syndrome among IT Pros. It has been an enlightening journey. You can start the series here:_
+</small>_This is the final blog post in my series on battling Impostor Syndrome among IT Pros. It has been an enlightening journey. You can start the series here:_
 
 _[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
 
 ___
 
-_Full disclosure: I had written a post that I thought articulated my final point on Impostor Syndrome well. It was a rough draft, so it was subject to change – but I was confident enough to share it with Don Jones. I was hoping he would have a small insight to help drive my point home, instead he pulled out several points and gave me a different perspective. This post is similar, but far different from my original post. _
+_Full disclosure: I had written a post that I thought articulated my final point on Impostor Syndrome well. It was a rough draft, so it was subject to change – but I was confident enough to share it with Don Jones. I was hoping he would have a small insight to help drive my point home, instead he pulled out several points and gave me a different perspective. This post is similar, but far different from my original post._</small>
 
 ___
 
@@ -24,6 +24,7 @@ ___
 When I started writing this post, I was trying to sum up the one thing that has helped me to get over my own Impostor Syndrome. Throughout the last several years I have developed a love for Microsoft Endpoint Manager. Microsoft’s Enterprise Mobility and Security suite has brought me joy – I love the tools that are available to us. Microsoft has provided a suite of tools that allow us to empower end users and drive organizational change. Business is being revolutionized, and the tools that we manage are pivotal in changing the way our organizations do business. This is exciting to me. This drives me. This is my passion.  
 ​
 The original premise was that my passion is the reason I had a spot at the table – but Don pushed back on that premise. Passion is an overused word. I knew that when I was writing the first draft, but I believed that I could drive my point home despite that. He asked me, “Is it excitement? Joy? Does it create a sense of internal fulfillment? Is it something that’s worked so well for you, you want to share it with others?” His questions were all valid – and his concerns mirrored my own feelings about the original post. It felt forced and watered down – I just couldn’t figure out why. 
+
 Prior to re-entering the IT field, I had worked a lot of different jobs. The two roles that stand out the most were my time spent as a plumber and later my time working as a paramedic. I found great satisfaction in both jobs. When I was plumbing it was easy to look back at the work we had done over the course of the day. There was very tangible value in what we did. I could see the pipes we had run or feel the hot water coming out of a faucet and know that I had accomplished something. The work was hard, but at times very rewarding. Similarly – working on the ambulance gave me a sense of purpose. It was rewarding to have run a call and know that your actions made a difference. I could see the relief in a patient’s eyes when they knew someone was there to help. It could be endlessly rewarding, however working on an ambulance can mean long hours and the emotional toll leaves an indelible mark. For every high point in emergency services there is also a low point. The good moments can easily be erased, but the low points continue to build.  
 
 In my original draft, I suggested that the reason those jobs weren’t for me was because I didn’t have the same passion for them as I do my current job. To a point that’s true – however, as Don pointed out, “it’s the outcomes, not the effort that tends to lead most people to satisfaction.” If the outcomes of those jobs outweighed the effort (physical, mental, and emotional) they were rewarding. When the work became too much my passion for those jobs was taken away. 
