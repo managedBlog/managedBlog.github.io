@@ -5,9 +5,7 @@ header:
     overlay_image:
     teaser:
 tags:
-  - Microsoft Endpoint Manager
-  - MEMCM
-  - Configuration Manager
+  - Modern Workplace
 ---
 
 Are we even speaking the same language?

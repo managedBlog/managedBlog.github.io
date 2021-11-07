@@ -42,6 +42,7 @@ Setting up UI++
 
 _(Note: my unattend.xml and UI++.xml files are included at the end of this article)_
 
+```xml
     <Action Type="Input" Name="LanguageSelection" Title="Primary Language" ShowBack="True" ShowCancel="True">
             <ChoiceInput Variable="MyLanguage" Question="Please select a primary locale for this computer" Required="True" >   
                     <Choice Option="Bulgarian (Bulgaria)" Value="bg-BG" />   
@@ -53,6 +54,7 @@ _(Note: my unattend.xml and UI++.xml files are included at the end of this artic
                     <Choice Option="Spanish (Spain)" Value="es-ES" />
             </ChoiceInput>
     </Action>
+```
 
 UI++ uses a set of customizable interactive actions to collect input from the end user. This section of XML can be broken down as follows:
 
@@ -64,6 +66,7 @@ This generates the following input. In this example the tech selected “French�
 
 ____
 
+```xml
     <Action Type="Input" Name="KeyboardSelection" Title="Keyboard Layout">
             <ChoiceInput Variable="ChangeKeyboard" Question="Would you like to select a different keyboard layout?" Required="True" >   
                     <Choice Option="Yes - make it the default" Value="YesDefault"/>
@@ -72,6 +75,7 @@ ____
                     <Choice Option="No" Value="No"/>
             </ChoiceInput>                    
     </Action>
+```
 
 This action is similar to the Primary Language step above. The technician is asked if they need to change the default keyboard layout. If they say no they default keyboard layout for the primary language is used. If they need to add an additional keyboard layout, they have the option to set it as the default keyboard, set it as secondary, or replace the default keyboard entirely. Note that the possible values are No, YesDefault, YesSecondary, and YesReplace. The ChangeKeyboard variable will be set to one of these values.
 
@@ -81,6 +85,7 @@ This action is similar to the Primary Language step above. The technician is ask
 
 ____
 
+```xml
     <Action Type="Input" Name="KeyboardSelection" Title="Keyboard Layout" Condition='"%ChangeKeyboard%" <> "No"' ShowBack="True" ShowCancel="True">
             <ChoiceInput Variable="MyKeyboard" Question="Please select a Keyboard Layout for this computer" Required="True" >   
                     <Choice Option="Bulgarian (Bulgaria)" Value="bg-BG" />   
@@ -92,6 +97,7 @@ ____
                     <Choice Option="Spanish (Spain)" Value="es-ES" />
             </ChoiceInput>
     </Action>
+```
 
 The keyboard selection action has a condition tag. In this case if %ChangeKeyboard% is not equal to “No” the action will be displayed. The variable %MyKeyboard% will be set based on the language selected.
 
@@ -101,6 +107,7 @@ In this case, the technician selected English (UK), which sets %MyKeyboard% to �
 
 ____
 
+```xml
     <Action Type="Input" Name="Time Zone" Title="Please Select a Time Zone" ShowBack="True" ShowCancel="True">
             <ChoiceInput Variable="MyTimeZone" Question="Please select a Time Zone for this computer" Required="True" >   
                     <Choice Option="1. GMT Standard Time (GMT)" Value="GMT Standard Time"/>
@@ -113,6 +120,7 @@ ____
                     <Choice Option="7. South Africa Standard Time (GMT+02:00)" Value="South Africa Standard Time"/>
             </ChoiceInput>
     </Action> 
+```
 
 I would have skipped the TimeZone screen for this post, but I wanted to point out that for the Time Zone to work correctly the value must exactly match Microsoft’s listed time zones. This is one of the rare examples where there’s not a simplified value that can be used. I recommend copying the value from [Microsoft’s time zone index](https://support.microsoft.com/en-us/help/973627/microsoft-time-zone-index-values).
 
@@ -120,6 +128,7 @@ I would have skipped the TimeZone screen for this post, but I wanted to point ou
 
 ____
 
+```xml
     <Action Type="TSVar" Name="OSDInputLocale" Condition='"%ChangeKeyboard%" = "No"'>"%MyLanguage%"</Action>
     <Action Type="TSVar" Name="OSDInputLocale" Condition='"%ChangeKeyboard%" = "YesDefault"'>"%MyKeyboard%;%MyLanguage%"</Action>
     <Action Type="TSVar" Name="OSDInputLocale" Condition='"%ChangeKeyboard%" = "YesSecondary"'>"%MyLanguage%;%MyKeyboard%"</Action>
@@ -129,6 +138,7 @@ ____
     <Action Type="TSVar" Name="OSDSystemLocale" >"%MyLanguage%"</Action>
     <Action Type="TSVar" Name="OSDUILanguageFallback" >"%MyLanguage%"</Action>
     <Action Type="TSVar" Name="OSDTimeZone" >"%MyTimeZone%"</Action>
+```
 
 The action type “TSVar” sets a task sequence variable. In this the task sequences variables are being set based on the values that were set in previous steps.
 The value of OSDInputLocale will be used to set the keyboard layouts. When setting multiple keyboard layouts, the values must be separated by a semi-colon. I have built my version of UI++ to support two keyboard layouts. The value is contructed based on the value of the %ChangeKeyboard% variable collected above.
@@ -147,6 +157,7 @@ The “Apply Operating System” step in a Microsoft Endpoint Manager task seque
 
 My unattend.xml is simple. I use it to skip the out-of-box experience and to set my language and localization settings. For this use case all my settings are arranged in the oobeSystem settings pass:
 
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <unattend xmlns="urn:schemas-microsoft-com:unattend">
             <settings pass="oobeSystem">
@@ -171,6 +182,7 @@ My unattend.xml is simple. I use it to skip the out-of-box experience and to set
                     </component>
             </settings>
     </unattend>
+```
 
 There are two different component sections in my answer file. The first one is “Microsoft-Windows-Shell-Setup.” This component includes settings that control screens the end user sees during the Out of Box Experience. The time zone is included in the settings pass with the <TimeZone> tag. I have set the time zone to use the variable %OSDTimeZone%.
 ​
