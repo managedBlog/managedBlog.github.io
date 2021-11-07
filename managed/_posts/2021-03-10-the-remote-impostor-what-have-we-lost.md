@@ -17,6 +17,7 @@ tags:
 
 _“So, if you ever feel like you can’t handle something, maybe just think about what you’ve already done.” – Rebecca Pearson, This Is Us_
 ​
+
 I didn’t intend to start this blog with an open admission that I have been sucked into a prime-time drama, but there it is. One line from this week’s episode summed up everything I wanted to say. Almost everyone I know has felt overwhelmed at some point over the last year. That can manifest in any number of ways, and for impostors in a remote world that often means we feel like we haven’t accomplished much. 
 
 In my last post, I discussed what we have lost by going remote. We lost several things – but two of them really stood out to me. We lost both a physical presence and a separation of time and space that helped to separate work from our private lives. Those have led to many of us losing focus on the things that matter, and often can lead to a dangerous feedback loop where we constantly question everything. 
