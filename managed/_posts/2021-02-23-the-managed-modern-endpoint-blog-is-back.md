@@ -4,6 +4,9 @@ excerpt: "At a recent event I was sitting at a table with several Microsoft team
 header:
     overlay_image:
     teaser:
+tags:
+  - Modern Endpoint Blog
+  - About me    
 ---
 
 | ![Before and After](https://managedblog.github.io/managed/assets/images/legacy/roomsplit.jpg) |
