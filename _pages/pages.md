@@ -9,7 +9,7 @@ intro:
 feature_row:
     - image_path: /assets/images/blog.jpg
       url: /managed/
-      alt: "Managed Blog
+      alt: "Managed Blog"
       title: "Managed Blog"
       excerpt: "Click here to access the blog!"
     - image_path: /assets/images/git.jpg
