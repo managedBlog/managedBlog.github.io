@@ -7,21 +7,21 @@ header:
 intro: 
     - excerpt: 'Exploring Modern Endpoint Management with Microsoft Endpoint Manager, Azure, and more.'
 feature_row:
-    - image_path: assets/images/MME_Logo_Medium.jpg
-      alt: "placeholder image 1"
-      title: "Placeholder 1"
-      excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    - image_path: /assets/images/MME_Logo_stacked.jpg
-      image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-      alt: "placeholder image 2"
-      title: "Placeholder 2"
-      excerpt: "This is some sample content that goes here with **Markdown** formatting."
-      url: "#test-link"
-      btn_label: "Read More"
-      btn_class: "btn--primary"
-    - image_path: /assets/images/mmsThumbsUp.png
-      title: "Placeholder 3"
-      excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    - image_path: /assets/images/blog.jpg
+      url: /managed/
+      alt: "Managed Blog
+      title: "Managed Blog"
+      excerpt: "Click here to access the blog!"
+    - image_path: /assets/images/git.jpg
+      url: https://github.com/managedBlog/hello-world
+      image_caption: "GitHub Repo"
+      alt: "GitHub"
+      title: "GitHub"
+      excerpt: "Check out my repo here!"
+    - image_path: /assets/images/aboutme.jpg
+      url: /aboutme/
+      title: "About me!"
+      excerpt: "Learn about me!"
 ---
 
 {% include feature_row id="intro" type="center" %}
