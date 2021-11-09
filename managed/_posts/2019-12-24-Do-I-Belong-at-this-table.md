@@ -9,7 +9,7 @@ tags:
   - About Me
 ---
 
-_This is the first post in a series on Impostor Syndrome among IT Pros. I will be talking about my journey, the people who have inspired me, and how we can deal with this common challenge that faces many of us._
+<small>_This is the first post in a series on Impostor Syndrome among IT Pros. I will be talking about my journey, the people who have inspired me, and how we can deal with this common challenge that faces many of us._</small>
 
 {% capture fig_img %}
 ![Special thanks to @rundavidrun]({{ "https://managedBlog.github.io/managed/assets/images/legacy/2019-12-24-impostorsyndrome_orig.jpg" | relative_url }})
