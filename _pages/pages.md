@@ -24,7 +24,7 @@ feature_row:
       btn_class: "btn--primary"
     - image_path: https://managedblog.github.io/assets/images/bio.jpg
       image_caption: "About me"
-      url: /aboutme/
+      url: /about/
       title: "About me!"
       excerpt: "Learn more about me!"
       btn_label: "About Me"

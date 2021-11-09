@@ -3,7 +3,7 @@ main:
   - title: "Blog"
     url: https://www.modernendpoint.com/managed
   - title: "About Me"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /about/
   - title: "Github Repo"
     url: https://github.com/managedBlog/hello-world
   # - title: "Sample Collections"
