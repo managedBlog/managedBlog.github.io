@@ -24,7 +24,7 @@ gallery:
     caption: "Conditional Launch"
 ---
 
-_Welcome to the managed.modernEndpoint.com blog! Posts will range from step by step walk throughs (like this one) to deep dives on topics I find interesting or am actively working on. I will also spend time discussing my perspective on Managing Modern Endpoints, a topic I am truly excited about!_
+<small>_Welcome to the managed.modernEndpoint.com blog! Posts will range from step by step walk throughs (like this one) to deep dives on topics I find interesting or am actively working on. I will also spend time discussing my perspective on Managing Modern Endpoints, a topic I am truly excited about!_</small>
 
 In case you haven't explored the new Admin Center you may not have noticed the new guided scenarios. These are currently still in Preview, but I wanted to do a brief walk through on one of the available scenarios. Two of the scenarios (Deploy Edge for Mobile and Deploy a Cloud Managed PC) are available on the Home blade. My personal favorite, Secure Office apps for mobile, is neatly tucked away on the Troubleshooting blade under Guided scenarios. The various guided scenarios enable administrators to quickly deploy policy sets that contain baseline policies for several device types at once.
 

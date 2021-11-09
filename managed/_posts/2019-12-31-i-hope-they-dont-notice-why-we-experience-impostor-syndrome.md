@@ -23,9 +23,9 @@ gallery:
     title: "Conditional Launch"
 ---
 
-_This is the second post in a planned five part series on Impostor Syndrome among IT Pros._
+<small>_This is the second post in a planned five part series on Impostor Syndrome among IT Pros._</small>
 
-_Check out the first post in the series here: [Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
+<small>_Check out the first post in the series here: [Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_</small>
 
 I hope they don’t find out.
 

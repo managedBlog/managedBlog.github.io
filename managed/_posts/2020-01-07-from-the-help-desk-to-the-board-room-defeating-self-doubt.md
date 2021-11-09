@@ -9,7 +9,7 @@ tags:
   - About Me
 ---
 
-_This is the third post in a planned five-part series on Impostor Series among IT Pros. Previous posts can be found here:_
+<small>_This is the third post in a planned five-part series on Impostor Series among IT Pros. Previous posts can be found here:_</small>
 
 _[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
 

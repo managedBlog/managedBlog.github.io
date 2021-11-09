@@ -20,7 +20,7 @@ When you test the policy and the device is not registered you are blocked from a
 When a conditional access policy is in place all conditions must be met before the access controls are evaluated. If you had tested other scenarios that you expect should fail, you would have found that in this case the user could access their email from the device’s browser – even if it is not enrolled in Intune. The policy would have been evaluated as follows:​
 
 {% capture fig_img %}
-![Special thanks to @rundavidrun]({{ "https://managedBlog.github.io/managed/assets/images/legacy/ConditionalAccess/01-table-unblock-sign-in.png" | relative_url }})
+![Unblock sign in]({{ "https://managedBlog.github.io/managed/assets/images/legacy/ConditionalAccess/01-table-unblock-sign-in.png" | relative_url }})
 {% endcapture %}
 
 <figure>

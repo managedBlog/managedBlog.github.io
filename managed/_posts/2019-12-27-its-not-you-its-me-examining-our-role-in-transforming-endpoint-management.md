@@ -11,7 +11,7 @@ tags:
 
 ---
 
-_This is the first post in a series on Modern Workplace management. Through this series I will explore the underlying questions of endpoint management and what it means for us as IT Pros._
+<small>_This is the first post in a series on Modern Workplace management. Through this series I will explore the underlying questions of endpoint management and what it means for us as IT Pros._</small>
 
 It’s not you, it’s me.
 

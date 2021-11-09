@@ -9,9 +9,9 @@ tags:
   - Modern Workplace
 ---
 
-_This is the second post in a series on the principles behind the Modern Workplace_
+<small>_This is the second post in a series on the principles behind the Modern Workplace_</small>
 
-_The first can be found here: [It's not you, It's me](https://www.modernendpoint.com/managed/its-not-you-its-me-examining-our-role-in-transforming-endpoint-management)_
+<small>_The first can be found here: [It's not you, It's me](https://www.modernendpoint.com/managed/its-not-you-its-me-examining-our-role-in-transforming-endpoint-management)_</small>
 
 ___
 ​

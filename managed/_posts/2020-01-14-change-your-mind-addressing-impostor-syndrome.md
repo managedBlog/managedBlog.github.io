@@ -10,7 +10,7 @@ tags:
 
 ---
 
-_This is part 4 in a 5-part series on Impostor Syndrome among IT Pros. You can find the rest of the series here:._
+<small>_This is part 4 in a 5-part series on Impostor Syndrome among IT Pros. You can find the rest of the series here:._</small>
 
 _[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
 
