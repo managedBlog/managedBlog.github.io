@@ -2,6 +2,7 @@
 permalink: /about/
 title: "About"
 excerpt: "Blogger. Speaker. Enterprise Mobility Engineer."
+author_profile: true
 ---
 
 ## Welcome to the Managed Modern Endpoint blog, v. 2.0
