@@ -7,8 +7,8 @@ header:
 intro: 
     - excerpt: 'Exploring Modern Endpoint Management with Microsoft Endpoint Manager, Azure, and more.'
 feature_row:
-    - image_path: /assets/images/blog.jpg
-      url: /managed/
+    - url: /managed/
+      image_path: /assets/images/blog.jpg
       alt: "Managed Blog"
       title: "Managed Blog"
       excerpt: "Click here to access the blog!"
