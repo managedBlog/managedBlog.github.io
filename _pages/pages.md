@@ -18,11 +18,12 @@ feature_row:
       alt: "GitHub"
       title: "GitHub"
       excerpt: "Check out my repo here!"
-    - image_path: /assets/images/aboutme.jpg
+    - image_path: https://managedblog.github.io/assets/images/bio.jpg
       image_caption: "About me"
       url: /aboutme/
       title: "About me!"
       excerpt: "Learn more about me!"
+
 ---
 
 {% include feature_row id="intro" type="center" %}
