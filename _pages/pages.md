@@ -19,6 +19,7 @@ feature_row:
       title: "GitHub"
       excerpt: "Check out my repo here!"
     - image_path: /assets/images/aboutme.jpg
+      image_caption: "About me"
       url: /aboutme/
       title: "About me!"
       excerpt: "Learn more about me!"
