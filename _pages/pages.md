@@ -21,7 +21,7 @@ feature_row:
     - image_path: /assets/images/aboutme.jpg
       url: /aboutme/
       title: "About me!"
-      excerpt: "Learn about me!"
+      excerpt: "Learn more about me!"
 ---
 
 {% include feature_row id="intro" type="center" %}
