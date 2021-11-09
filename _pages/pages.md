@@ -8,7 +8,7 @@ intro:
     - excerpt: 'Exploring Modern Endpoint Management with Microsoft Endpoint Manager, Azure, and more.'
 feature_row:
     - url: /managed/
-      image_path: [/assets/images/blog.jpg](https://www.modernendpoint.com/managed)
+      image_path: /assets/images/blog.jpg
       alt: "Managed Blog"
       title: "Managed Blog"
       excerpt: "Click here to access my blog!"
