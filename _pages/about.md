@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-layout: default
+layout: single
 excerpt: "Blogger. Speaker. Enterprise Mobility Engineer."
 author_profile: true
 ---
