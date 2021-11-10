@@ -1,6 +1,6 @@
 ---
 title: "The Managed Modern Endpoint blog is back!"
-excerpt: "At a recent event I was sitting at a table with several Microsoft team members and customers. We all had one thing in common – a love for Microsoft’s Modern Endpoint Management solutions."
+excerpt: "I know that it has been a while since I last posted a blog entry. The break wasn’t because I didn’t have ideas, nor because I didn’t want to blog."
 header:
     overlay_image:
     teaser:

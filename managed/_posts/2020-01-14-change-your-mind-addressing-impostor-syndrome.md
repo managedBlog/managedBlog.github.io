@@ -12,11 +12,11 @@ tags:
 
 <small>_This is part 4 in a 5-part series on Impostor Syndrome among IT Pros. You can find the rest of the series here:._</small>
 
-_[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
+<small>_[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_</small>
 
-_[I hope they don't notice: Why We Experience Impostor Syndrome](https://www.modernendpoint.com/managed/i-hope-they-dont-notice-why-we-experience-impostor-syndrome)_
+<small>_[I hope they don't notice: Why We Experience Impostor Syndrome](https://www.modernendpoint.com/managed/i-hope-they-dont-notice-why-we-experience-impostor-syndrome)_</small>
 
-_[From the Help Desk to the Board Room: Defeating Self-Doubt](https://www.modernendpoint.com/managed/from-the-help-desk-to-the-board-room-defeating-self-doubt)_
+<small>_[From the Help Desk to the Board Room: Defeating Self-Doubt](https://www.modernendpoint.com/managed/from-the-help-desk-to-the-board-room-defeating-self-doubt)_</small>
 
 ___
 

@@ -11,10 +11,10 @@ tags:
 
 <small>_This is the third post in a planned five-part series on Impostor Series among IT Pros. Previous posts can be found here:_</small>
 
-_[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_
+<small>_[Do I belong at this table?](https://www.modernendpoint.com/managed/do-i-belong-at-this-table)_</small>
 
 
-_[I Hope they don't find out](https://www.modernendpoint.com/managed/i-hope-they-dont-notice-why-we-experience-impostor-syndrome)_
+<small>_[I Hope they don't find out](https://www.modernendpoint.com/managed/i-hope-they-dont-notice-why-we-experience-impostor-syndrome)_</small>
 
 ___
 
