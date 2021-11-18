@@ -18,7 +18,7 @@ _<small>Hello, and welcome back! It has been months since my last blog post, and
 |:--:|
 | <small>Presenting on Graph API with Adam Gross at MMS Miami Beach!</small>|
 
->“Graph API will put the entire Microsoft ecosystem at your fingertips! You can build solutions that will make managing your resources in the cloud so much easier! There’s literally nothing you can’t do!” – Some Ignite presenter, probably.
+>“Graph API will put the entire Microsoft ecosystem at your fingertips! You can build solutions that will make managing your resources in the cloud so much easier! There’s literally nothing you can’t do!” – Some Ignite presenter, probably
 ____
 
 The early marketing for Microsoft Graph was amazing. It didn’t take me long for me to realize that it would open a lot of opportunities to automate workloads in our company. I wanted to dive in and learn more, but unfortunately, I couldn’t find documentation that was targeted to systems administrators. Most of the resources that were available were targeted at developers. It didn’t translate well to the work I was trying to do. That meant that the barrier to entry for using Microsoft Graph was high. Unless there was a business case, I wouldn’t be able to justify taking the time to learn everything I would need to know. 
