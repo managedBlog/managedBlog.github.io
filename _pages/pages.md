@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 author_profile: false
+title: "Welcome to ModernEndpoint.com"
 header:
     image: https://managedblog.github.io/assets/images/MME_Logo_Hz_1400x350.png
 intro: 
