@@ -1,7 +1,7 @@
 ---
 title: "Everything I Wanted to know about APIs but was afraid to ask"
 excerpt: "Learning how to use an API wasn’t hard. Finding the right resources to get started was. This post is the first in a series on how to use and access APIs, specifically Microsoft Graph and the Configuration Manager AdminService. "
-image: "https://www.modernendpoint.com/assets/images/MME_Logo_stacked.jpg"
+og_image: "https://www.modernendpoint.com/assets/images/MME_Logo_stacked.jpg"
 tags:
   - Microsoft Endpoint Manager
   - Intune
