@@ -74,7 +74,7 @@
 <meta name="twitter:site" content="@{{ site.twitter.username }}">
 <meta name="twitter:description" content="{{ seo_description }}">
 <meta name="twitter:url" content="{{ canonical_url }}">
-<meta name="twitter:image" content="{{ page_teaser_image }}">
+<meta name="twitter:image" content="{{ site.og_image }}">
 
 {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
