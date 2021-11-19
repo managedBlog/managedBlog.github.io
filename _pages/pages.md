@@ -5,6 +5,7 @@ author_profile: false
 title: "Welcome to ModernEndpoint.com"
 header:
     image: https://managedblog.github.io/assets/images/MME_Logo_Hz_1400x350.png
+description: "The Managed Modern Endpoint Blog is your source for great modern endpoint management content!"
 intro: 
     - excerpt: 'Exploring Modern Endpoint Management with Microsoft Endpoint Manager, Azure, and more.'
 feature_row:
