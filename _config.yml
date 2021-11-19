@@ -80,7 +80,7 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               : &twitter "managed_blog"
-og_image                 : "/assets/images/MME_Logo_stacked.jpg" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/MME_Stacked_1200x630.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
