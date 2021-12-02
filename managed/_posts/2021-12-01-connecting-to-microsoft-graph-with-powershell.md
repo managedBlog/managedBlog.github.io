@@ -164,7 +164,7 @@ In the App Registration, click on Certificates & Secrets.
 
 Click New Client Secret.
 
-![New Client Secret](https://managedblog.github.io/managed/assets/images/21.12.01/22.NewClientSecret.png){: .align-center}
+![New Client Secret](https://managedblog.github.io/managed/assets/images/21.12.01/22.NewClientSecret.jpg){: .align-center}
 
 Name your client secret and select an expiration period. Click Add to create the secret.
 
