@@ -109,7 +109,7 @@ Invoke-RestMethod @graphGetParams
 
 In this case, I was passing the Access Token from Get-MSALToken into the Invoke-RestMethod cmdlet. I know I have a valid access token, so I expected it would return a list of managed devices from Microsoft Graph. Instead, I received the following response:
 
-![403 Forbidden](https://managedblog.github.io/managed/assets/images/21.12.07/08.403Forbidden.png){: .align-center}
+![403 Forbidden](https://managedblog.github.io/managed/assets/images/21.12.07/08.Forbidden.png){: .align-center}
 
 To correct this issue, I need to add the appropriate API permissions to my application registration. Go to the “API permissions” page inside of the App Registration. Click “Add a permission.” Select Microsoft Graph.
 
