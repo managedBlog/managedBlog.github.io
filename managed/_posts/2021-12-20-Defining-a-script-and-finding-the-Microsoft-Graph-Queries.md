@@ -60,8 +60,10 @@ Ultimately, this API call returned a list of objects. When we build our script l
 
 ![Docs Example Id](https://managedblog.github.io/managed/assets/images/21.12.19/05.DocsExampleId.png){: .align-center}
 
->[!IMPORTANT]
+<div style="background-color:#E0FFFF;">
 >Every object has an ID in Microsoft Graph. Think of this like a primary key in a database. The more time you spend working with Microsoft Graph and other REST APIs, you may find that a single object has multiple IDs based on how you are accessing it. For example, a single device in Microsoft Graph may have a Managed Device ID, Azure Device ID, and Autopilot Device ID. Each device ID represents that device’s object in different parts of the service.
+</div>
+
 
 ### Graph Explorer 
 ____
@@ -284,7 +286,7 @@ ____
 
 Follow the full series below:
 
-[Everything I wanted to know about APIs but was afraid to ask](https://www.modernendpoint.com/managed/everything-i-wanted-to-know-about-apis-but-was-afraid-to-ask/)
-[Connecting to Microsoft Graph with PowerShell](https://www.modernendpoint.com/managed/connecting-to-microsoft-graph-with-powershell/)
-[Troubleshooting Microsoft Graph App Registration Errors](https://www.modernendpoint.com/managed/troubleshooting-microsoft-graph-app-registration-errors/)
-[Defining a script and finding the Microsoft Graph Calls](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/)
+1. [Everything I wanted to know about APIs but was afraid to ask](https://www.modernendpoint.com/managed/everything-i-wanted-to-know-about-apis-but-was-afraid-to-ask/)
+2. [Connecting to Microsoft Graph with PowerShell](https://www.modernendpoint.com/managed/connecting-to-microsoft-graph-with-powershell/)
+3. [Troubleshooting Microsoft Graph App Registration Errors](https://www.modernendpoint.com/managed/troubleshooting-microsoft-graph-app-registration-errors/)
+4. [Defining a script and finding the Microsoft Graph Calls](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/)
