@@ -31,7 +31,7 @@ Over the course of the next few posts, I am going to create a script that will u
 4.	PATCH the device object to change the management name
 
 
-We need to find the URI to do each one of these items. There are several different options, but I want to call out three different options: Microsoft Graph REST API documentation (Device management in Microsoft Intune - Microsoft Graph v1.0 | Microsoft Docs), Graph Explorer (aka.ms/ge), and using F12 Developer Tools to identify the API being called by the UI.
+We need to find the URI to do each one of these items. There are several different options, but I want to call out three different options: [Microsoft Graph REST API documentation](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0), Graph Explorer (aka.ms/ge), and using F12 Developer Tools to identify the API being called by the UI.
 
 
 ### Microsoft Graph REST API Documentation 
