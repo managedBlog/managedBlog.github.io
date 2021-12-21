@@ -32,7 +32,8 @@ Over the course of the next few posts, I am going to create a script that will u
  
 We need to find the URI to do each one of these items. There are several different options, but I want to call out three different options: Microsoft Graph REST API documentation (Device management in Microsoft Intune - Microsoft Graph v1.0 | Microsoft Docs), Graph Explorer (aka.ms/ge), and using F12 Developer Tools to identify the API being called by the UI.
 
-# # # Microsoft Graph REST API Documentation 
+
+### Microsoft Graph REST API Documentation 
 ____
 
 Microsoft Graph is extremely well documented. Microsoft's documentation explores all the available endpoints in depth. It is arguably the most important tool for understanding how to work with Microsoft Graph. The single greatest weak spot of the Microsoft Graph documentation is the search tool. You can search from the search box in the upper right corner and filter the results, but it's a bit clunky. The best way I have found to search the documentation is by using an external search engine. In this case, I am going to search for "Microsoft graph management name." The second result is from Microsoft Docs, and is titled "List managedDevices - Microsoft Graph v1.0."
@@ -58,11 +59,11 @@ Ultimately, this API call returned a list of objects. When we build our script l
 
 ![Docs Example Id](https://managedblog.github.io/managed/assets/images/21.12.19/05.DocsExampleId.png){: .align-center}
 
-```
+~~~
 Every object has an ID in Microsoft Graph. Think of this like a primary key in a database. The more time you spend working with Microsoft Graph and other REST APIs, you may find that a single object has multiple IDs based on how you are accessing it. For example, a single device in Microsoft Graph may have a Managed Device ID, Azure Device ID, and Autopilot Device ID. Each device ID represents that device’s object in different parts of the service.
-```
+~~~
 
-# # # Graph Explorer
+### Graph Explorer
 ____
 
 Microsoft Graph documentation includes a lot of great information, though it can be difficult to find exactly what you’re looking for. In the first post in this series, I talked about Graph Explorer at a high level. It is an extremely valuable tool for understanding how to make calls to Microsoft Graph. 
@@ -95,7 +96,7 @@ This post won’t explore all of the possible query parameters, but one other qu
 
 ![Filtered And Selected Results](https://managedblog.github.io/managed/assets/images/21.12.19/11.FilteredAndSelectedResults.png){: .align-center}   
 
-# # # F12 Developer Tools
+### F12 Developer Tools
 ____
 
 We can find all the information we need to write our script using Microsoft Docs and Graph Explorer, but there is one more tool that can prove to be invaluable when working with Microsoft Graph. Most (if not all) modern browsers have a developer tools feature built in. Developer tools can inspect web pages and traffic to provide information on a site and the resources being accessed. In Microsoft Edge and internet Explorer developer tools are accessed by pressing F12. 
@@ -159,7 +160,7 @@ If we look in Microsoft Endpoint Manager, the management name was successfully u
 
 ![Device Name Changed In Portal](https://managedblog.github.io/managed/assets/images/21.12.19/24.DeviceNameChangedInPortal.png){: .align-center}    
 
-# # # Pulling it back together
+### Pulling it back together
 ____
 
 We defined that our goal was to update a device’s management name based on the primary user. That means we need to be able to complete the following steps:
@@ -280,6 +281,8 @@ When we run this request, we can see the result in the Intune Portal:
 This post covers various ways to discover the API calls you need to build a script to build automation workloads with Microsoft Graph. There are different ways to find information. Each has its own benefits. In my next post, I will take the information that we found to build a script that will update a device’s management name. We will discuss how to work with the JSON results of an API call, form the body of a request, and how to format different API calls in PowerShell. 
 
 ____
+
+Follow the full series below:
 
 [Everything I wanted to know about APIs but was afraid to ask](https://www.modernendpoint.com/managed/everything-i-wanted-to-know-about-apis-but-was-afraid-to-ask/)
 [Connecting to Microsoft Graph with PowerShell](https://www.modernendpoint.com/managed/connecting-to-microsoft-graph-with-powershell/)
