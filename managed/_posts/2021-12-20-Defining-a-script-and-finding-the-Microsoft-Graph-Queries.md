@@ -60,10 +60,6 @@ Ultimately, this API call returned a list of objects. When we build our script l
 
 ![Docs Example Id](https://managedblog.github.io/managed/assets/images/21.12.19/05.DocsExampleId.png){: .align-center}
 
-<div style="background-color:#E0FFFF;">
-_<small>Every object has an ID in Microsoft Graph. Think of this like a primary key in a database. The more time you spend working with Microsoft Graph and other REST APIs, you may find that a single object has multiple IDs based on how you are accessing it. For example, a single device in Microsoft Graph may have a Managed Device ID, Azure Device ID, and Autopilot Device ID. Each device ID represents that device’s object in different parts of the service.</small>_
-</div>
-
 
 ### Graph Explorer 
 ____
