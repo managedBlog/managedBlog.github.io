@@ -63,7 +63,7 @@ Ultimately, this API call returned a list of objects. When we build our script l
 Every object has an ID in Microsoft Graph. Think of this like a primary key in a database. The more time you spend working with Microsoft Graph and other REST APIs, you may find that a single object has multiple IDs based on how you are accessing it. For example, a single device in Microsoft Graph may have a Managed Device ID, Azure Device ID, and Autopilot Device ID. Each device ID represents that device’s object in different parts of the service.
 </p>
 
-### Graph Explorer
+### Graph Explorer 
 ____
 
 Microsoft Graph documentation includes a lot of great information, though it can be difficult to find exactly what you’re looking for. In the first post in this series, I talked about Graph Explorer at a high level. It is an extremely valuable tool for understanding how to make calls to Microsoft Graph. 
