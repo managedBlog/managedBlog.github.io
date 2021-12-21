@@ -29,7 +29,8 @@ Over the course of the next few posts, I am going to create a script that will u
 2.	GET the primary user’s Azure AD object
 3.	Create a payload from the response
 4.	PATCH the device object to change the management name
- 
+
+
 We need to find the URI to do each one of these items. There are several different options, but I want to call out three different options: Microsoft Graph REST API documentation (Device management in Microsoft Intune - Microsoft Graph v1.0 | Microsoft Docs), Graph Explorer (aka.ms/ge), and using F12 Developer Tools to identify the API being called by the UI.
 
 
@@ -59,9 +60,7 @@ Ultimately, this API call returned a list of objects. When we build our script l
 
 ![Docs Example Id](https://managedblog.github.io/managed/assets/images/21.12.19/05.DocsExampleId.png){: .align-center}
 
-<p class="callout info">
-Every object has an ID in Microsoft Graph. Think of this like a primary key in a database. The more time you spend working with Microsoft Graph and other REST APIs, you may find that a single object has multiple IDs based on how you are accessing it. For example, a single device in Microsoft Graph may have a Managed Device ID, Azure Device ID, and Autopilot Device ID. Each device ID represents that device’s object in different parts of the service.
-</p>
+<p class="callout info">Every object has an ID in Microsoft Graph. Think of this like a primary key in a database. The more time you spend working with Microsoft Graph and other REST APIs, you may find that a single object has multiple IDs based on how you are accessing it. For example, a single device in Microsoft Graph may have a Managed Device ID, Azure Device ID, and Autopilot Device ID. Each device ID represents that device’s object in different parts of the service.</p>
 
 ### Graph Explorer 
 ____
