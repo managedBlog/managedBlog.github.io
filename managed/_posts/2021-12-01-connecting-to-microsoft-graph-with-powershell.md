@@ -190,3 +190,11 @@ This returns the same result as we received above when authenticating interactiv
 ![Final token returned](https://managedblog.github.io/managed/assets/images/21.12.01/25.FinalResults.png){: .align-center}
 
 By creating and connecting with the client secret we can connect programmatically to Microsoft Graph. This allows us to automate the connection and will be very helpful when creating tools to manage different workloads. Throughout the rest of this series, we will be using the Microsoft Authentication Library, particularly the client secret above to connect to Microsoft Graph. It is extremely useful for accessing resources from several different authentication tools.
+
+
+Follow the full series below:
+
+[Everything I wanted to know about APIs but was afraid to ask](https://www.modernendpoint.com/managed/everything-i-wanted-to-know-about-apis-but-was-afraid-to-ask/)
+[Connecting to Microsoft Graph with PowerShell](https://www.modernendpoint.com/managed/connecting-to-microsoft-graph-with-powershell/)
+[Troubleshooting Microsoft Graph App Registration Errors](https://www.modernendpoint.com/managed/troubleshooting-microsoft-graph-app-registration-errors/)
+[Defining a script and finding the Microsoft Graph Calls](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/)

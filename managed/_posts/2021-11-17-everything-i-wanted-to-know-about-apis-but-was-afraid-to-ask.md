@@ -116,3 +116,11 @@ Here we can see that we received the response “OK” with a status code of `20
 This blog post was intended to be an entry point for using Microsoft Graph. We established the foundation for future blog posts that will provide additional building blocks for workings with both Graph and the AdminService. Each post will provide another tool to help you build confidence. Later posts in this series will dive deeper into more complex tasks, including building tools to help manage your environment and automate your endpoint management workloads.
 
 Thank you for visiting! Please keep watching for more great content!
+
+
+Follow the full series below:
+
+[Everything I wanted to know about APIs but was afraid to ask](https://www.modernendpoint.com/managed/everything-i-wanted-to-know-about-apis-but-was-afraid-to-ask/)
+[Connecting to Microsoft Graph with PowerShell](https://www.modernendpoint.com/managed/connecting-to-microsoft-graph-with-powershell/)
+[Troubleshooting Microsoft Graph App Registration Errors](https://www.modernendpoint.com/managed/troubleshooting-microsoft-graph-app-registration-errors/)
+[Defining a script and finding the Microsoft Graph Calls](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/)

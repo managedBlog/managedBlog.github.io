@@ -142,3 +142,11 @@ The access token includes information about the API permissions that an applicat
 ![Response Returned](https://managedblog.github.io/managed/assets/images/21.12.07/13.ResponseReturned.png){: .align-center}
 
 This only covers a few issues I ran into while creating the App Registrations I used in my previous blog post. I know that there are a lot of other possible responses. If you know of any other issues I should cover, please feel free to share them! 
+
+
+Follow the full series below:
+
+[Everything I wanted to know about APIs but was afraid to ask](https://www.modernendpoint.com/managed/everything-i-wanted-to-know-about-apis-but-was-afraid-to-ask/)
+[Connecting to Microsoft Graph with PowerShell](https://www.modernendpoint.com/managed/connecting-to-microsoft-graph-with-powershell/)
+[Troubleshooting Microsoft Graph App Registration Errors](https://www.modernendpoint.com/managed/troubleshooting-microsoft-graph-app-registration-errors/)
+[Defining a script and finding the Microsoft Graph Calls](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/)
