@@ -1,6 +1,6 @@
 ---
-title: "PowerShell tips for accessing Microsoft Graph in PowerShell"
-excerpt: "We use a lot of different tools to automate tasks, but perhaps the most important tool for many of us is PowerShell. PowerShell is incredibly powerful, and we can leverage it to connect to the APIs. In this post, I will discuss how to connect to Microsoft Graph using PowerShell."
+title: "Splatting with Invoke-RestMethod in PowerShell"
+excerpt: "Invoke-RestMethod is a much more flexible option. We can make any REST API call we want to, it is native to PowerShell, and it automatically converts JSON or XML responses to PowerShell objects."
 tags:
   - Microsoft Endpoint Manager
   - Intune
@@ -339,6 +339,7 @@ We can also see that our device was renamed as we expected:
 
 ![Device Renamed In Portal](https://managedblog.github.io/managed/assets/images/21.12.30/10.DeviceRenamedInPortal.png){: .align-center}
 
+
 ### Microsoft Graph Response Codes
 ____
 
@@ -354,7 +355,8 @@ Status Code | Summary | Notes
 500 INTERNAL SERVER ERROR | A server-side error occurred | There may be an issue with the request, or there is a server side error. The response body may contain more information. 
 503 SERVICE UNAVAILABE | The server did not respond | The server didn’t respond to the incoming request. 
 
-[You can find out more information about status codes here.](https://docs.microsoft.com/en-us/graph/errors). As we work through this series, I will build error handling into my scripts. Since we are creating tools for automation, a lot of the errors will simply be written to a log file, but when appropriate we may take different actions based on the status code returned. Even if you’re not building in error handling, it’s important to understand the return codes to help identify areas where your API calls can be improved.
+
+[You can find out more information about status codes here.](https://docs.microsoft.com/en-us/graph/errors) As we work through this series, I will build error handling into my scripts. Since we are creating tools for automation, a lot of the errors will simply be written to a log file, but when appropriate we may take different actions based on the status code returned. Even if you’re not building in error handling, it’s important to understand the return codes to help identify areas where your API calls can be improved.
 
 This blog post includes tips and tricks for making API calls with Invoke-RestMethod in PowerShell. We discussed splatting and created a function that can be used for calling Microsoft Graph. In my next post, I will combine the topics from both this post and my previous post to create a script that will automatically update a device’s management name based on the primary user. You will see how we can use PowerShell to parse the results of a GET request, dynamically create a name string, and then make a PATCH request to set the name. It will demonstrate the power of the function we created today and demonstrate how Microsoft Graph can be used to automate tasks across Azure services.
 
