@@ -16,9 +16,11 @@ _<small>Welcome back! This post is a continuation on my series about endpoint ma
 | ![header](https://managedblog.github.io/managed/assets/images/22.01.04/Depositphotos_42826349_XL.png){: .align-center} |
 
 Over the course of the last two posts, we have been exploring how to create a PowerShell script to complete a task using Microsoft Graph. [In the earlier post](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/), I talked about how to define a script and identify the API calls you would need to make. [In my last post](https://www.modernendpoint.com/managed/PowerShell-tips-for-accessing-Microsoft-Graph-in-PowerShell/), I walked through how to make Microsoft Graph calls in PowerShell and [created a function](https://github.com/managedBlog/Managed_Blog/blob/main/Microsoft%20Graph/Splatting/Invoke-MsGraphCall.ps1) that can be used to make any API call to Microsoft Graph. Now we need to put those elements together to create and run our script. 
+
 ----
 
-# # # The Elements
+### The Elements
+----
 
 We have already defined that our script should change a device’s management name based on the user’s Office, department, city, and the device’s serial number. To limit the scope of the script, I elected to run it on a per-user basis. 
 By passing in a User Principal Name, we will return a user object and select several attributes. After returning the user object, we will also return their devices. We will use the user and device attributes to build a string that we will use for the management name. Once we have generated the management name, we will PATCH the managed device in Azure. In a full production script, we would also add logging and error handling. For ease of demonstration, I will keep this script simple and only focus on the functional script elements. 
@@ -44,8 +46,8 @@ Before creating a script, let’s create a pseudocode outline of the script:
     3.	Create the management name string
     4.	Make a `PATCH` request to `https://graph.microsoft.com/beta/deviceManagement/managedDevices/$DevId` to update the device’s management name
 
-# # # The Script
-
+### The Script
+----
 
 We have defined the elements we need for our script and built an outline. We can now write a script to handle each of the defined tasks. I will break down each element below. [You can find the completed script in my GitHub Repo.](https://github.com/managedBlog/Managed_Blog/blob/main/Microsoft%20Graph/Update-ManagmentName.ps1)
 
@@ -261,4 +263,4 @@ Follow the full series below:
 3. [Troubleshooting Microsoft Graph App Registration Errors](https://www.modernendpoint.com/managed/troubleshooting-microsoft-graph-app-registration-errors/)
 4. [Defining a script and finding the Microsoft Graph Calls](https://www.modernendpoint.com/managed/Defining-a-script-and-finding-the-Microsoft-Graph-Queries/)
 5. [Splatting with Invoke-RestMethod in PowerShell](https://www.modernendpoint.com/managed/PowerShell-tips-for-accessing-Microsoft-Graph-in-PowerShell/)
-6. [Updating Device Management name in PowerShell with Microsoft Graph]
+6. [Updating Device Management name in PowerShell with Microsoft Graph](https://www.modernendpoint.com/managed/Updating-device-management-name-in-PowerShell-with-Microsoft-Graph/)
