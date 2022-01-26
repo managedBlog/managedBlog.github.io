@@ -1,6 +1,6 @@
 ---
 title: "Working with Azure Key Vault in PowerShell"
-excerpt: ""
+excerpt: "While a key vault isn’t required for using tools like Azure Automation, it will allow us to store our secrets and access them without needing to store them in plain text or hard code them into our scripts."
 tags:
   - Microsoft Endpoint Manager
   - Intune
@@ -237,4 +237,4 @@ Follow the full series below:
 5. [Splatting with Invoke-RestMethod in PowerShell](https://www.modernendpoint.com/managed/PowerShell-tips-for-accessing-Microsoft-Graph-in-PowerShell/)
 6. [Updating Device Management name in PowerShell with Microsoft Graph](https://www.modernendpoint.com/managed/Updating-device-management-name-in-PowerShell-with-Microsoft-Graph/)
 7. [Surprise Post:Adding Filters to application assignments with PowerShell and Microsoft Graph](https://www.modernendpoint.com/managed/Adding-Filters-to-application-assignments-with-PowerShell-and-Microsoft-Graph/)
-8. 
+8. [Working with Azure Key Vault in PowerShell](https://www.modernendpoint.com/managed/Working-with-Azure-Key-Vault-in-PowerShell/)
