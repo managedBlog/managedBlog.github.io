@@ -143,7 +143,7 @@ The access token includes information about the API permissions that an applicat
 
 This only covers a few issues I ran into while creating the App Registrations I used in my previous blog post. I know that there are a lot of other possible responses. If you know of any other issues I should cover, please feel free to share them! 
 
-____
+______
 
 Follow the full series below:
 
@@ -155,3 +155,5 @@ Follow the full series below:
 6. [Updating Device Management name in PowerShell with Microsoft Graph](https://www.modernendpoint.com/managed/Updating-device-management-name-in-PowerShell-with-Microsoft-Graph/)
 7. [Surprise Post:Adding Filters to application assignments with PowerShell and Microsoft Graph](https://www.modernendpoint.com/managed/Adding-Filters-to-application-assignments-with-PowerShell-and-Microsoft-Graph/)
 8. [Working with Azure Key Vault in PowerShell](https://www.modernendpoint.com/managed/Working-with-Azure-Key-Vault-in-PowerShell/)
+9. [Creating an Azure Automation Account](https://www.modernendpoint.com/managed/Creating-an-Azure-Automation-Account/)
+10. [Setting up a Hybrid Worker on an Azure Arc Enabled Server](https://www.modernendpoint.com/managed/Setting-up-a-Hybrid-Worker-on-an-Azure-Arc-Enabled-Server/)

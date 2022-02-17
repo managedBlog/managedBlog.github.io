@@ -192,7 +192,7 @@ This returns the same result as we received above when authenticating interactiv
 By creating and connecting with the client secret we can connect programmatically to Microsoft Graph. This allows us to automate the connection and will be very helpful when creating tools to manage different workloads. Throughout the rest of this series, we will be using the Microsoft Authentication Library, particularly the client secret above to connect to Microsoft Graph. It is extremely useful for accessing resources from several different authentication tools.
 
 
-____
+______
 
 Follow the full series below:
 
@@ -204,3 +204,5 @@ Follow the full series below:
 6. [Updating Device Management name in PowerShell with Microsoft Graph](https://www.modernendpoint.com/managed/Updating-device-management-name-in-PowerShell-with-Microsoft-Graph/)
 7. [Surprise Post:Adding Filters to application assignments with PowerShell and Microsoft Graph](https://www.modernendpoint.com/managed/Adding-Filters-to-application-assignments-with-PowerShell-and-Microsoft-Graph/)
 8. [Working with Azure Key Vault in PowerShell](https://www.modernendpoint.com/managed/Working-with-Azure-Key-Vault-in-PowerShell/)
+9. [Creating an Azure Automation Account](https://www.modernendpoint.com/managed/Creating-an-Azure-Automation-Account/)
+10. [Setting up a Hybrid Worker on an Azure Arc Enabled Server](https://www.modernendpoint.com/managed/Setting-up-a-Hybrid-Worker-on-an-Azure-Arc-Enabled-Server/)

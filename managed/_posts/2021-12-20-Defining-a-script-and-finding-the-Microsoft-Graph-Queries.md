@@ -278,7 +278,7 @@ When we run this request, we can see the result in the Intune Portal:
 
 This post covers various ways to discover the API calls you need to build a script to build automation workloads with Microsoft Graph. There are different ways to find information. Each has its own benefits. In my next post, I will take the information that we found to build a script that will update a device’s management name. We will discuss how to work with the JSON results of an API call, form the body of a request, and how to format different API calls in PowerShell. 
 
-____
+______
 
 Follow the full series below:
 
@@ -290,3 +290,5 @@ Follow the full series below:
 6. [Updating Device Management name in PowerShell with Microsoft Graph](https://www.modernendpoint.com/managed/Updating-device-management-name-in-PowerShell-with-Microsoft-Graph/)
 7. [Surprise Post:Adding Filters to application assignments with PowerShell and Microsoft Graph](https://www.modernendpoint.com/managed/Adding-Filters-to-application-assignments-with-PowerShell-and-Microsoft-Graph/)
 8. [Working with Azure Key Vault in PowerShell](https://www.modernendpoint.com/managed/Working-with-Azure-Key-Vault-in-PowerShell/)
+9. [Creating an Azure Automation Account](https://www.modernendpoint.com/managed/Creating-an-Azure-Automation-Account/)
+10. [Setting up a Hybrid Worker on an Azure Arc Enabled Server](https://www.modernendpoint.com/managed/Setting-up-a-Hybrid-Worker-on-an-Azure-Arc-Enabled-Server/)
