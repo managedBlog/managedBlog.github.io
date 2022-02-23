@@ -219,7 +219,7 @@ Inside of Configuration Manager, I have identified a device that doesn’t have 
 
 In this example, I want to update this device’s primary user. We can do this by making a `POST` call to `https:// Your-CmServer.FQDN.com /AdminService/wmi/SMS_UserMachineRelationship.CreateRelationship`. We know that POST requests require a JSON payload in the body of the request. This specific request requires the resource ID of a device, the user’s unique name from Configuration Manager, a SourceID value which specifies how the primary user was set, and a type ID. 
 
-Ordinarily, I would pass these values in as a hashtable, but as mentioned above, Azure Automation doesn’t handle those well. In this case, I will pass in the following JSON-like string to generate the request body: ` { "UserAccountName"="MME-LAB\\Sean.Bulger","MachineResourceId"=16777222,"TypeId"= 1, "SourceId"=6 }`. Note that in this example, the numeric values are all integers. If you enclose these values as quotes, Configuration Manager will treat them as strings and will return an error. 
+Ordinarily, I would pass these values in as a hashtable, but as mentioned above, Azure Automation doesn’t handle those well. In this case, I will pass in the following JSON-like string to generate the request body: `{ "UserAccountName"="MME-LAB\\Sean.Bulger","MachineResourceId"=16777222,"TypeId"= 1, "SourceId"=6 }`. Note that in this example, the numeric values are all integers. If you enclose these values as quotes, Configuration Manager will treat them as strings and will return an error. 
 
 The values used in this example are:
 
