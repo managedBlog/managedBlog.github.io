@@ -223,9 +223,11 @@ Ordinarily, I would pass these values in as a hashtable, but as mentioned above,
 
 The values used in this example are:
 
-URI: ` https://mme-memcm01.mme-lab.com/AdminService/wmi/SMS_UserMachineRelationship.CreateRelationship`
+URI: `https://mme-memcm01.mme-lab.com/AdminService/wmi/SMS_UserMachineRelationship.CreateRelationship`
+
 Method: `POST`
-BodyInput: ` { "UserAccountName"="MME-LAB\\Sean.Bulger","MachineResourceId"=16777222,"TypeId"= 1, "SourceId"=6 }`
+
+BodyInput: `{ "UserAccountName"="MME-LAB\\Sean.Bulger","MachineResourceId"=16777222,"TypeId"= 1, "SourceId"=6 }`
 
 Once again, we are setting the “Run on” slider to “Hybrid Worker” and selecting our hybrid worker group.
 
