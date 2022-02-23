@@ -253,7 +253,7 @@ As promised, here's the entire script that I broke down above:
 ````powershell
 
 <#
-Name: Update-ManagementName
+Name: Invoke-AdminServiceCall.ps1
 Author: Sean Bulger, twitter @managed_blog, http://managed.modernendpoint.com
 Version: 0.1
 .Synopsis
