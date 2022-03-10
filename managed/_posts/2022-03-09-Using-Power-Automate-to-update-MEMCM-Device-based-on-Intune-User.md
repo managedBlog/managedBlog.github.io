@@ -18,10 +18,6 @@ _<small>Welcome back! This is the second post this week, and a follow up - today
 ![Header](https://managedblog.github.io/managed/assets/images/22.03.09/00.Header.png){: .align-center}
 ----
 
-
-<image 0>
- 
-
 Hello and welcome back! This is the latest blog post on my series on automating endpoint management tasks with Microsoft Graph and the Microsoft Endpoint Manager AdminService. If you read my [last post](https://www.modernendpoint.com/managed/Running-an-Azure-Automation-runbook-to-update-MEMCM-Primary-User/), you know that this is my second post this week. Originally these two posts were going to be combined in a single post. As I began writing the post and documenting all the steps involved, I realized that a single post wasn’t enough to cover everything I wanted to cover. With that being said, if you want to learn more about the PowerShell runbook that I’m calling from Power Automate, you can read more about it and the last post.
 
 This post is going to focus on creating a workflow with Power Automate. Power Automate is a low-code workflow tool that allows users and administrators to automate tasks across their cloud services. Power Automate is one several services available in Office 365 and Azure that can be used to automate various tasks. While there are tools like Logic Apps that are targeted primarily at systems administrators, Power Automate is a good starting point. I will explore the differences between those services in the future, but in today’s post I am going to limit the scope to just Power Automate. Power Automate is part of the Power Platform, which also includes Power Apps, Power Bi, and Power Virtual Agents. As I continue to explore automation workloads, expect to see more information about the Power Platform suite, especially Power Apps.
@@ -327,6 +323,7 @@ Once we have created a workflow, we can adjust how and when to run it by changin
 Now that we have established the basic tools needed for endpoint management automation, I will continue to explore other avenues, including creating task-specific automation workloads that you can use as a basis for tools in your environment.
 
 Once again, I hope this post and the series have been helpful. Thank you for visiting. Keep following for more great content!
+
 ______
 
 Follow the full series below:
