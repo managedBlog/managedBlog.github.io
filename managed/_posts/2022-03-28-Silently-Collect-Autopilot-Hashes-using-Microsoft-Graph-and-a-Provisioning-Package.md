@@ -69,7 +69,7 @@ Click “Mobile and desktop applications.”
 
 ![Click On Mobile And Desktop Applications](https://managedblog.github.io/managed/assets/images/22.03.28/04.ClickOnMobileAndDesktopApplications.png){: .align-center}
 
-Check the box for https://login.microsoftonline.com/common/oauth2/nativeclient and click Configure.
+Check the box for `https://login.microsoftonline.com/common/oauth2/nativeclient` and click Configure.
 
 ![Redirect Uris](https://managedblog.github.io/managed/assets/images/22.03.28/05.RedirectUris.png){: .align-center}
  
@@ -105,8 +105,9 @@ Click on Overview. Copy the Application (client) ID. We will use this value in o
 
 
 ### The Script
+----
 
-[The heart of our solution is a script](https://github.com/managedBlog/Managed_Blog/blob/main/MEMAC/Import%20Autopilot%20Hash/Import-AutopilotHashFromPpkg.ps1] that gathers the serial number and hardware hash and then makes a Microsoft Graph call to upload the hash to Intune. The script is based on my [Invoke-MsGraphCall](https://github.com/managedBlog/Managed_Blog/blob/main/Microsoft%20Graph/Splatting/Invoke-MsGraphCall.ps1) function. It leverages the Microsoft Authentication Library PowerShell module. 
+[The heart of our solution is a script](https://github.com/managedBlog/Managed_Blog/blob/main/MEMAC/Import%20Autopilot%20Hash/Import-AutopilotHashFromPpkg.ps1]) that gathers the serial number and hardware hash and then makes a Microsoft Graph call to upload the hash to Intune. The script is based on my [Invoke-MsGraphCall](https://github.com/managedBlog/Managed_Blog/blob/main/Microsoft%20Graph/Splatting/Invoke-MsGraphCall.ps1) function. It leverages the Microsoft Authentication Library PowerShell module. 
 
 The script first checks for and downloads the MSAL.ps PowerShell module. It isn’t natively part of the OS, so we know that it won’t be present on a computer during OOBE. The script checks for the presence of the module. When it is not found it will install NuGet and then install the authentication module.
 
@@ -243,6 +244,7 @@ If($MSGraphCall){
 
 
 ### Creating the Provisioning Package
+----
 
 Once we have the script created we are ready to create our Provisioning Package. If you don’t already have Windows Configuration Designer installed, you will need to install it now. The Windows Configuration Designer can be installed from two separate places. The Windows Imaging and Configuration Designer is available as part of the Microsoft Deployment Toolkit. The [Windows Configuration Designer app](https://www.microsoft.com/store/apps/9nblggh4tx22) is also available in the Microsoft Store. 
 Install the app from the Microsoft store.
