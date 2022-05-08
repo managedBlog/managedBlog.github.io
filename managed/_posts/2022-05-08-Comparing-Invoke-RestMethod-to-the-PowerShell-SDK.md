@@ -9,7 +9,9 @@ tags:
 ---
 _<small>Welcome back! A lot has happened since my last post. This post is a companion to one of my sessions at MMSMOA. It is also the latest post in my series on automating endpoint management tasks with Microsoft Graph and the MEMCM AdminService. [You can find the rest of the series here.](https://www.modernendpoint.com/tags/#microsoft-graph-api)</small>_
 ----
+![Header](https://managedblog.github.io/managed/assets/images/22.03.09/IMG_2978.png){: .align-center}
 
+----
 
 Hello and welcome back!
 
@@ -231,14 +233,14 @@ When I first wrote this post, this section was essentially a manifesto in favor 
 
 There are four subjective areas where I think direct API calls win. _In my opinion_, making direct API calls with `Invoke-RestMethod` is a better option because it offers more simplicity, stability, flexibility, and portability. 
  
-_*Simplicity*_
+_**Simplicity**_
 The script I shared above requires one module - MSAL.ps. Invoke-RestMethod is a native cmdlet in PowerShell core. It works without installing any extra modules and can be used to make API calls to _any_ REST API that you have access to.  The PowerShell SDK consists of a primary module and 38 sub modules. You don't need to install all of them, but you do need to know which ones need to be installed for the tasks you are trying to complete. If you choose only to install needed modules you may have to install additional modules later to makes calls to other areas of the service. Direct calls with `Invoke-RestMethod` only require you to know the URI, which is something you probably need to know to find the right cmdlet in the SDK.
 
-_*Stability*_
+_**Stability**_
 Technology is subject to change. That applies to Microsoft Graph, whether your make direct calls to the API or use the SDK. However, API endpoints are much less likely to change. They form the backbone of the tools Microsoft has built into Azure, and deprecating an endpoint can be service impacting. The PowerShell SDK is a tool that Microsoft provides and updates regularly. Cmdlets get added and sometimes they get removed. When changes are made to Graph they are not going to be reflected in the SDK until several development cycles later. By making direct API calls to Microsoft Graph you can take advantage of new endpoints sooner, and they are going to be less likely to change. 
 
 
-_*Flexibility*_
+_**Flexibility**_
 Do you want to authenticate to Microsoft Graph with a client secret stored in Azure Key Vault? Do you want to make calls to Microsoft Graph from your favorite low-code tool? Does your workload require you to hit other APIs? 
  
 _Are any of those true in your environment? Consider the following:_
@@ -250,7 +252,7 @@ Most low-code tools don't have an option to integrate PowerShell directly. If yo
 The Microsoft Graph SDK support Microsoft Graph. If you want to make calls to other APIs, you're going to have to make a direct API call to those services. 
  
  
-_*Portability*_
+_**Portability**_
 Portability and flexibility are closely related. Both the skills and the actual REST API calls that are used when making direct calls to Graph are portable. The SDK is self-contained. Knowing how to use `Get-MgUser` isn't going to help you when running a flow in Power Automate. If you want to return all users, you're going to make an HTTP request to `GET https://graph.microsoft.com/v1.0/users`. Working with third party APIs in PowerShell is identical to calling Graph with Invoke-RestMethod. The skillset itself is portable, which can't be said for the PowerShell SDK.
 
 ### You know, that’s just like, your opinion, man…
