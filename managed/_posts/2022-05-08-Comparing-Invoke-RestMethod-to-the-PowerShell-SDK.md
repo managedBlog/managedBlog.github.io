@@ -6,6 +6,7 @@ tags:
   - Intune
   - Microsoft Graph API
   - PowerShell
+  - MMS Demos
 ---
 _<small>Welcome back! A lot has happened since my last post. This post is a companion to one of my sessions at MMSMOA. It is also the latest post in my series on automating endpoint management tasks with Microsoft Graph and the MEMCM AdminService. [You can find the rest of the series here.](https://www.modernendpoint.com/tags/#microsoft-graph-api)</small>_
 ----
