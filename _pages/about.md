@@ -4,6 +4,11 @@ title: "About"
 layout: single
 excerpt: "Blogger. Speaker. Enterprise Mobility Engineer."
 author_profile: true
+#Sidebar
+sidebar:
+- title: "Microsoft MVP - Enterprise Mobility"
+  image: "/assets/images/MVP_Badge_Preferred_Blue3005_RGB.png"
+  image_alt: "Microsoft MVP logo"
 ---
 
 ## Welcome to the Managed Modern Endpoint blog, v. 2.0
