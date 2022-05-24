@@ -1,8 +1,8 @@
 ---
 title: "MMS Intune Management PowerApp Demo Part 1 Creating the PowerAutomate flows"
-excerpt: "In this blog post, I will explain why the demonstration in my last post wasn’t practical for automation and provide a PowerShell runbook that solves those problems."
+excerpt: "There’s a chicken-or-egg question when building Power Apps based on Power Automate workflows. Should I create the workflow first or the app first? I have done both. Typically, I prefer to create the base flow, and then update it based on what I learn from building the app."
 header:
-    og_image:
+    og_image: "https://managedblog.github.io/managed/assets/images/22.05.23/31.CompleteFlowTest.png"
 tags:
   - Microsoft Endpoint Manager
   - Intune
