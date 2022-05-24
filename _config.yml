@@ -124,11 +124,6 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-#Sidebar
-sidebar:
-- title: "Microsoft MVP - Enterprise Mobility"
-  image: "/assets/images/MVP_Badge_Preferred_Blue3005_RGB.png"
-  image_alt: "Microsoft MVP logo"
 
 
 # Site Footer
@@ -296,3 +291,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "MVP"

@@ -10,3 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+MVP:
+  - title: "Microsoft MVP - Enterprise Mobility"
+      image: "/assets/images/MVP_Badge_Preferred_Blue3005_RGB.png"
+      image_alt: "Microsoft MVP logo"
