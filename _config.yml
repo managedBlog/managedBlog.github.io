@@ -101,7 +101,7 @@ analytics:
 author:
   name             : "Sean Bulger"
   avatar           : "/assets/images/mmsThumbsUp.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Speaker, Blogger, Consulting Engineer. Modern Endpoint Management enthusiast."
+  bio              : "Microsoft MVP - Enterprise Mobility | Speaker, Blogger, Consulting Engineer. Modern Endpoint Management enthusiast."
   location         : "Southeast Michigan, USA"
   email            : 
   links:
@@ -123,6 +123,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
+#Sidebar
+
+sidebar:
+  image: "/assets/images/MVP_Badge_Preferred_Blue3005_RGB.png"
+
 
 # Site Footer
 footer:
