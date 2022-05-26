@@ -1,5 +1,5 @@
 ---
-title: "MMS Intune Management PowerApp Demo Part 1 Creating the PowerAutomate flows"
+title: "MMS Intune Management PowerApp Demo Part 1: Creating the PowerAutomate flows"
 excerpt: "There’s a chicken-or-egg question when building Power Apps based on Power Automate workflows. Should I create the workflow first or the app first? I have done both. Typically, I prefer to create the base flow, and then update it based on what I learn from building the app."
 header:
     og_image: "https://managedblog.github.io/managed/assets/images/22.05.23/31.CompleteFlowTest.png"
