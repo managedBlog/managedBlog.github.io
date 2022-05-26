@@ -2,7 +2,7 @@
 title: "MMS Intune Management PowerApp Demo Part 2: Creating the PowerApp user lookup controls"
 excerpt: "This is a relatively simple app, but I will try to capture any of the details you may need to build your own copy. This app is designed to be a jumping off point for you to explore and understand the art of the possible. Use this tutorial to learn how to work Power Apps, and then use the app you build as a platform to build your own Intune device management mobile app."
 header:
-    og_image: "https://managedblog.github.io/managed/assets/images/22.05.23/31.CompleteFlowTest.png"
+    og_image: "https://managedblog.github.io/managed/assets/images/22.05.25/23.txtUserValueSet.png"
 tags:
   - Microsoft Endpoint Manager
   - Intune
