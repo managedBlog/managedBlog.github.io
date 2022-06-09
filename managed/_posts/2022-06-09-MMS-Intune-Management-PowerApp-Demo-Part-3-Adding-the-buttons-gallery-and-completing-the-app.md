@@ -209,7 +209,7 @@ Follow the full series below:
 14. [Comparing Invoke RestMethod to the PowerShell SDK](https://www.modernendpoint.com/managed/Comparing-Invoke-RestMethod-to-the-PowerShell-SDK)
 15. [MMS Intune Management PowerApp Demo Part 1: Creating the PowerAutomate flows](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-1-Creating-the-PowerAutomate-flows)
 16. [MMS Intune Management PowerApp Demo Part 2: Creating the PowerApp user lookup controls](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-2-Creating-the-PowerApp-user-lookup-controls)
-17. [MMS Intune Management PowerApp Demo Part 3: Adding the buttons, gallery, and completing the app](https://www.modernendpoint.com/managed/https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-3-Adding-the-buttons-gallery-and-completing-the-app/)
+17. [MMS Intune Management PowerApp Demo Part 3: Adding the buttons, gallery, and completing the app](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-3-Adding-the-buttons-gallery-and-completing-the-app/)
 
 
 
