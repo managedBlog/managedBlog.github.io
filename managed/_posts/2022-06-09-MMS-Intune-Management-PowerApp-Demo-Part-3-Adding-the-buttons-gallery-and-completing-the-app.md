@@ -1,8 +1,8 @@
 ---
 title: "MMS Intune Management PowerApp Demo Part 3: Adding the buttons, gallery, and completing the app"
-excerpt: "This is a relatively simple app, but I will try to capture any of the details you may need to build your own copy. This app is designed to be a jumping off point for you to explore and understand the art of the possible. Use this tutorial to learn how to work Power Apps, and then use the app you build as a platform to build your own Intune device management mobile app."
+excerpt: "In today’s post I will complete the app by adding a gallery and two buttons.  Those buttons will call the Power Automate workflows that call Microsoft Graph and will return and retire devices from Intune."
 header:
-    og_image: "https://managedblog.github.io/managed/assets/images/22.05.25/23.txtUserValueSet.png"
+    og_image: "https://managedblog.github.io/managed/assets/images/22.06.09/19.SelectDeviceAndClickRetire.png"
 tags:
   - Microsoft Endpoint Manager
   - Intune
@@ -121,7 +121,7 @@ Click on the gallery name in the tree view. We want to highlight the selected it
 
 Select the Template fill property from the list of properties, and set the value to: 
 
-`
+````
     If(
 
         ThisItem.IsSelected,
@@ -129,7 +129,7 @@ Select the Template fill property from the list of properties, and set the value
         RGBA ( 0 , 0 , 0 , 0)
 
     )
-`
+````
 
 
 ![Update Template Fill](https://managedblog.github.io/managed/assets/images/22.06.09/14.UpdateTemplateFill.png){: .align-center}
@@ -209,7 +209,7 @@ Follow the full series below:
 14. [Comparing Invoke RestMethod to the PowerShell SDK](https://www.modernendpoint.com/managed/Comparing-Invoke-RestMethod-to-the-PowerShell-SDK)
 15. [MMS Intune Management PowerApp Demo Part 1: Creating the PowerAutomate flows](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-1-Creating-the-PowerAutomate-flows)
 16. [MMS Intune Management PowerApp Demo Part 2: Creating the PowerApp user lookup controls](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-2-Creating-the-PowerApp-user-lookup-controls)
-17. [MMS Intune Management PowerApp Demo Part 3: Adding the buttons, gallery, and completing the app](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-3-Adding-the-buttons-gallery-and-completing-the-app.md)
+17. [MMS Intune Management PowerApp Demo Part 3: Adding the buttons, gallery, and completing the app](https://www.modernendpoint.com/managed/https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-3-Adding-the-buttons-gallery-and-completing-the-app/)
 
 
 
