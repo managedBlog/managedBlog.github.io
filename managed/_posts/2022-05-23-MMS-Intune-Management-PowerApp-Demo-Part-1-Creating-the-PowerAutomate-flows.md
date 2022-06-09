@@ -305,7 +305,9 @@ Follow the full series below:
 12. [Running an Azure Automation runbook to update MEMCM Primary User](https://www.modernendpoint.com/managed/Running-an-Azure-Automation-runbook-to-update-MEMCM-Primary-User)
 13. [Using Power Automate to update MEMCM Device based on Intune User](https://www.modernendpoint.com/managed/Using-Power-Automate-to-update-MEMCM-Device-based-on-Intune-User)
 14. [Comparing Invoke RestMethod to the PowerShell SDK](https://www.modernendpoint.com/managed/Comparing-Invoke-RestMethod-to-the-PowerShell-SDK)
-15. [MMS Intune Management PowerApp Demo Part 1 Creating the PowerAutomate flows](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-1-Creating-the-PowerAutomate-flows)
+15. [MMS Intune Management PowerApp Demo Part 1: Creating the PowerAutomate flows](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-1-Creating-the-PowerAutomate-flows)
+16. [MMS Intune Management PowerApp Demo Part 2: Creating the PowerApp user lookup controls](https://www.modernendpoint.com/managed/MMS-Intune-Management-PowerApp-Demo-Part-2-Creating-the-PowerApp-user-lookup-controls)
+
 
 
 
