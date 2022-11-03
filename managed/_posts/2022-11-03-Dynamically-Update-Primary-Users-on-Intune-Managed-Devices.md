@@ -29,7 +29,7 @@ Intune is great at managing devices, especially when there is a primary user ass
 The only native way to update the primary user on those devices is to manually update it through the console. If we know who the primary user should be we can automate that process. If you have a strong inventory system, you could use that to set the primary user – but that only works if you know who the primary user should be. What happens if you don’t have a good inventory system, or if the primary user of a device changes? 
 
 
-### The Challenge
+# The Challenge
 
 Configuration Manager has a concept of _User Device Affinity_, but that same concept doesn’t exist in Intune. On a ConfigMgr managed device, we can add a user to a device based on how frequently they log in over a specified timeframe. 
 
@@ -40,7 +40,7 @@ There are two separate pieces of information we need to know. First, we need to 
 Unless you’re already collecting user login information with Log Analytics, user login history isn’t available in Azure. A device and the local user account can’t query Microsoft Graph without nesting credentials in a script. So how can we gather information from a device and leverage that information in Azure to dynamically update the Intune primary user?
 
 
-### The Answer
+# The Answer
 
 I realized that the best way to handle this task would be to gather the information from a machine and have the device send that information to a resource in Azure, and then somehow process that information. To be able to dynamically update the primary user, we need to gather historical login data. Sending the current logged in user wouldn’t be efficient – we don’t want to update the primary user every time someone logs in to a machine. 
 
@@ -215,7 +215,7 @@ If((!$PrimaryUser) -or ($UDAMultiplier -ge 1.5)){
 }
 ````
 
-### Bringing it all together
+# Bringing it all together
 
 While these two scripts can accomplish everything we set out to accomplish, we still need to deploy the solution. The solution starts running on an endpoint, but we need to deploy the service-side script first. The client-side script uses `Invoke-WebRequest` to call the script that ultimately updates the managed device object. Before we deploy the client script we need to generate the URL for our webhook.
 
