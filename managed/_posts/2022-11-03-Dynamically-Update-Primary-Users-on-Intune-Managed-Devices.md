@@ -1,8 +1,6 @@
 ---
 title: "Dynamically Update Primary Users on Intune Managed Devices"
 excerpt: "Intune is great at managing devices, especially when there is a primary user assigned. In most common use cases, the primary user is automatically assigned, but what happens if the primary user changes or the device was enrolled through another method like using a bulk enrollment token?"
-header:
-    og_image: "https://managedblog.github.io/managed/assets/images/22.11.03/01.HeaderImage.png"
 tags:
   - Microsoft Endpoint Manager
   - Intune
