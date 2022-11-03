@@ -19,7 +19,7 @@ tags:
 
 _<small>Hello! It has been a while since I have had time to post a new blog entry. Today’s post is the first of two posts I have on deck with new tools I have created for community use. </small>_
 
-![Header Image](https://managedblog.github.io/managed/assets/images/22.11.03/01.HeaderImage.png){: .align-center}
+![Header Image](https://managedblog.github.io/managed/assets/images/22.11.03/01.HeaderImage.png)
  
 
 
