@@ -1,6 +1,6 @@
 ---
 title: "Dynamically Update Primary Users on Intune Managed Devices"
-excerpt: "In today’s post I will complete the app by adding a gallery and two buttons.  Those buttons will call the Power Automate workflows that call Microsoft Graph and will return and retire devices from Intune."
+excerpt: "Intune is great at managing devices, especially when there is a primary user assigned. In most common use cases, the primary user is automatically assigned, but what happens if the primary user changes or the device was enrolled through another method like using a bulk enrollment token?"
 header:
     og_image: "https://managedblog.github.io/managed/assets/images/22.11.03/01.HeaderImage.png"
 tags:
@@ -19,8 +19,9 @@ tags:
 
 _<small>Hello! It has been a while since I have had time to post a new blog entry. Today’s post is the first of two posts I have on deck with new tools I have created for community use. </small>_
 
-| ![Header Image](https://managedblog.github.io/managed/assets/images/22.11.03/01.HeaderImage.png) |
-|:--:|
+![Header Image](https://managedblog.github.io/managed/assets/images/22.11.03/01.HeaderImage.png) {: .align-center}
+ 
+
 
 
 Intune is great at managing devices, especially when there is a primary user assigned. In most common use cases, the primary user is automatically assigned, but what happens if the primary user changes or the device was enrolled through another method like using a bulk enrollment token?
@@ -29,7 +30,6 @@ The only native way to update the primary user on those devices is to manually u
 
 
 ### The Challenge
-----
 
 Configuration Manager has a concept of _User Device Affinity_, but that same concept doesn’t exist in Intune. On a ConfigMgr managed device, we can add a user to a device based on how frequently they log in over a specified timeframe. 
 
@@ -41,7 +41,6 @@ Unless you’re already collecting user login information with Log Analytics, us
 
 
 ### The Answer
------
 
 I realized that the best way to handle this task would be to gather the information from a machine and have the device send that information to a resource in Azure, and then somehow process that information. To be able to dynamically update the primary user, we need to gather historical login data. Sending the current logged in user wouldn’t be efficient – we don’t want to update the primary user every time someone logs in to a machine. 
 
@@ -217,7 +216,6 @@ If((!$PrimaryUser) -or ($UDAMultiplier -ge 1.5)){
 ````
 
 ### Bringing it all together
------
 
 While these two scripts can accomplish everything we set out to accomplish, we still need to deploy the solution. The solution starts running on an endpoint, but we need to deploy the service-side script first. The client-side script uses `Invoke-WebRequest` to call the script that ultimately updates the managed device object. Before we deploy the client script we need to generate the URL for our webhook.
 
@@ -285,6 +283,7 @@ Click “Configure parameters and run settings.” You don’t need to change an
 
 
 Click “Create” to create the webhook.
+
 -----
 
 Once Azure Automation is configured, we are ready to prepare the client-side script. We need todeliver the [Send-UpdateUserWebHook.ps1 script](https://github.com/managedBlog/Managed_Blog/blob/main/Microsoft%20Graph/Intune%20-%20Primary%20User%20Device%20Affinity/Send-UpdateUserWebhook.ps1) to the machine. Update the value of `$FilterDomain` to match your UPN suffix and add the Webhook from the Update-PrimaryUser script to `$UDAWebHook`. The script returns logon events from the last 7 days. If you want to change the time frame to determine who the primary user should be, change the value of `$StartTime`.
@@ -314,11 +313,13 @@ Next to the “detection script file” click on the folder icon to browse for a
  
 
 On the Assignment tab, assign the script to a group and create a schedule for it to run. Click Next, and then click “Create” to create the proactive remediation.
+
 -----
 
 After the Proactive Remediation has been deployed, you can monitor it’s status by clicking on “Device Status” in the proactive remediation. Because of the way this script was designed, we expect that devices will show up with a detection status of “Without issues,” and a remediation status of, “not run.”
 
 ![Proactive Remediation Status](https://managedblog.github.io/managed/assets/images/22.11.03/09.ProactiveRemediationStatus.png){: .align-center}
+
 -----
 
 This tool accomplishes everything we needed to assign a primary user to a device that was enrolled with a bulk enrollment token and to keep the primary user up to date over time. Please feel free to edit it to meet the needs of your environment and to experiment with deployment options.
