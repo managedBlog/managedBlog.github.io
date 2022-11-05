@@ -1,18 +1,17 @@
 ---
-title: "Dynamically Update Primary Users on Intune Managed Devices"
-excerpt: "Intune is great at managing devices, especially when there is a primary user assigned. In most common use cases, the primary user is automatically assigned, but what happens if the primary user changes or the device was enrolled through another method like using a bulk enrollment token?"
+title: "Migrating AD Domain Joined Computer to Azure AD Cloud only join"
+excerpt: "Over the years, a lot of people have been looking for a solution to migrate on-premises Active Directory joined devices to Azure Active Directory cloud-only join." 
 tags:
-  - Microsoft Endpoint Manager
   - Intune
-  - Microsoft Graph API
-  - AdminService
   - PowerShell
   - Azure
-  - Azure Automation
-  - Power Automate
-  - Power Apps
-  - User Device Affinity
-  - Primary User
+  - Azure Active Directory Join
+  - AAD Migration
+  - Device Migration
+  - OneDrive for Business
+  - Domain join to AAD Join
+  - Domain join to Azure join
+
 ---
 
 _<small>Hello, and welcome back! Today I am sharing a tool to help you migrate a domain-joined device to a cloud-only, Azure AD joined state. Instead of my normal, in-depth step by step, this post will provide a high-level overview on how the tool works. **Please note:** This is not an officially supported solution. Your mileage may vary, and if you choose to use it, please test thoroughly before using in production.</small>_
@@ -35,7 +34,7 @@ With that being said, this tool is _only_ designed to migrate the device state. 
 
 # The Tool
 
-I created the original version of this tool to help a customer who needed to move devices that were in one of several different management states to a single, Azure Active Directory joined state. They had devices in two different domains. One of the domains was being completely deprecated. Approximately half of their devices were not joined to any directory. Users had accounts in two domains and logged into unmanaged devices with local user accounts. They had a third-party management tool with limited ability to push files to devices. Their environment posed multiple challenges. They wanted an option that would give them a single path to migrate all their devices to a single Azure Active directory tenant and preserve user data in the process. Since so many of their devices were largely unmanaged and had no onsite IT support, we needed a method that would be quick and relatively light touch.
+I created the original version of this tool to assist someone who needed to move devices that were in one of several different management states to a single, Azure Active Directory joined state. They had devices in two different domains. One of the domains was being completely deprecated. Approximately half of their devices were not joined to any directory. Users had accounts in two domains and logged into unmanaged devices with local user accounts. They had a third-party management tool with limited ability to push files to devices. Their environment posed multiple challenges. They wanted an option that would give them a single path to migrate all their devices to a single Azure Active directory tenant and preserve user data in the process. Since so many of their devices were largely unmanaged and had no onsite IT support, we needed a method that would be quick and relatively light touch.
 
 Adam’s script provided an excellent framework. He uses a single script and a provisioning package. The script moves all the needed files to a folder in ProgramData and creates multiple _PostRun_ scripts which are triggered using the NextRun registry key. A local administrative account is created in the initial script. That script sets multiple registry values, including allowing the temporary admin user to automatically login and launch each successive script. The provisioning pack uses a bulk enrollment token to join Azure AD after the first logon. After the second logon the device escrows its BitLocker keys and autologin is disabled. After the user logs in, additional cleanup tasks are completed. I found this approach to be novel. I had never considered leveraging the NextRun key in this manner.
 
