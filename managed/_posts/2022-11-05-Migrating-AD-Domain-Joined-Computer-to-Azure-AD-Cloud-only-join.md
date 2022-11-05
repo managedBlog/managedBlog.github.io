@@ -120,7 +120,9 @@ First, remember this _**is not**_ a supported solution, so if you want to use it
 7.	Replace the banner image (`AppDeployToolkitBanner.png`) in Toolkit\AppDeployToolkit with your banner image.
 
 ## Update the MigrationConfig.psd1 file
+
 Update the values in AADMigration\Files\MigrationConfig.psd1
+
 1.  **UseOneDriveKFM** – Set this to $True to install OneDrive and automatically enable Known Folder Move in the target tenant.
 2.	**TenantID** – This it the tenant ID of the target tenant. It is required when using OneDrive Known Folder Move.
 3.	**DeferDeadline** – This is used in Deploy-Application.ps1 to determine the deferral deadline for completing the migration.
