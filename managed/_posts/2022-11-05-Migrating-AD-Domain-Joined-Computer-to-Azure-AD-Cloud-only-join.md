@@ -24,7 +24,7 @@ In [my last blog post](https://www.modernendpoint.com/managed/Dynamically-Update
 
 ## First, some disclaimers
 
-The only officially supported method of doing this is through a wipe and reload. The recommended and most common path for moving to Azure-AD only join is to hybrid join existing devices, while using Autopilot to join Azure AD for all new devices. I wanted to find a solution to allow an organization to migrate their devices to a cloud-only join state without using hybrid join or wipe their devices. I _highly_ recommend using one of the commonly supported methods to begin your cloud endpoint journey, but I also acknowledge that in some instances organizations require minimal downtime and end user impact. [Adam Nichols](https://twitter.com/mauvlan) talked about how this could be accomplished at MMS in May, but focused on how it could be done using Configuration Manager. He did share a proof of concept on how it could be done without Configuration Manager using a provisioning package and PowerShell. [His script is available on his blog](https://mauvtek.com/home/active-directory-join-to-azure-ad-join). I want to echo and amplify his statement, _**”This is not a Microsoft supported process today.”** I will not be supporting this tool, but I did want to share it with the community as an alternative method for you to test and consider in your environment. I may make some updates to the tool, but those updates will largely be done as skill builders for me personally, not intended to make this a production tool.
+The only officially supported method of doing this is through a wipe and reload. The recommended and most common path for moving to Azure-AD only join is to hybrid join existing devices, while using Autopilot to join Azure AD for all new devices. I wanted to find a solution to allow an organization to migrate their devices to a cloud-only join state without using hybrid join or wipe their devices. I _highly_ recommend using one of the commonly supported methods to begin your cloud endpoint journey, but I also acknowledge that in some instances organizations require minimal downtime and end user impact. [Adam Nichols](https://twitter.com/mauvlan) talked about how this could be accomplished at MMS in May, but focused on how it could be done using Configuration Manager. He did share a proof of concept on how it could be done without Configuration Manager using a provisioning package and PowerShell. [His script is available on his blog](https://mauvtek.com/home/active-directory-join-to-azure-ad-join). I want to echo and amplify his statement, _**”This is not a Microsoft supported process today.”**_ I will not be offering support for this tool, but I did want to share it with the community as an alternative method for you to test and consider in your environment. I may make some updates to the tool, but those updates will largely be done as skill builders for me personally, not intended to make this a production tool.
 
 
 
@@ -120,17 +120,17 @@ First, remember this _**is not**_ a supported solution, so if you want to use it
 7.	Replace the banner image (`AppDeployToolkitBanner.png`) in Toolkit\AppDeployToolkit with your banner image.
 
 ## Update the MigrationConfig.psd1 file
-1)	Update the values in AADMigration\Files\MigrationConfig.psd1
-a.	UseOneDriveKFM – Set this to $True to install OneDrive and automatically enable Known Folder Move in the target tenant.
-b.	TenantID – This it the tenant ID of the target tenant. It is required when using OneDrive Known Folder Move.
-c.	DeferDeadline – This is used in Deploy-Application.ps1 to determine the deferral deadline for completing the migration.
-d.	DeferTimes – This will allow a user to defer the migration a specified number of times. Please note, that you can only use one of these deferral options.
-e.	StartBoundary – This value is used to determine when the scheduled task will start running to begin the migration. 
-f.	TempUser = This is the name of the temporary user account that will be created to complete the migration. It will be created as a local admin and configured for automatic login.
-g.	TempPass – This is the password that will be used for the TempUser account. The TempUser and Password will be created ONLY when the migration begins and be deleted at the end of the process
-h.	DomainLeaveUser – This is not required. If the DomainLeaveUser is present, the utility will check for connectivity to a domain controller and try to gracefully leave the domain. The account needs permission to add and remove computers from the domain and delete computer objects. If it is not present, the utility will disable network adapters and use the local account to leave the domain, then re-enable the network adapter before rebooting. If a domain controller cannot be contacted, the device will need to be manually deleted from the domain.
-i.	DomainLeavePass – This is required if the domain leave user is specified.
-j.	ProvisioningPack – This is the name of the provisioning package used for bulk enrollment in Azure Active Directory.
+Update the values in AADMigration\Files\MigrationConfig.psd1
+1.  **UseOneDriveKFM** – Set this to $True to install OneDrive and automatically enable Known Folder Move in the target tenant.
+2.	**TenantID** – This it the tenant ID of the target tenant. It is required when using OneDrive Known Folder Move.
+3.	**DeferDeadline** – This is used in Deploy-Application.ps1 to determine the deferral deadline for completing the migration.
+4.	**DeferTimes** – This will allow a user to defer the migration a specified number of times. Please note, that you can only use one of these deferral options.
+5.	**StartBoundary** – This value is used to determine when the scheduled task will start running to begin the migration. 
+6.	**TempUser** - This is the name of the temporary user account that will be created to complete the migration. It will be created as a local admin and configured for automatic login.
+7.	**TempPass** – This is the password that will be used for the TempUser account. The TempUser and Password will be created ONLY when the migration begins and be deleted at the end of the process
+8.	**DomainLeaveUser** – This is not required. If the DomainLeaveUser is present, the utility will check for connectivity to a domain controller and try to gracefully leave the domain. The account needs permission to add and remove computers from the domain and delete computer objects. If it is not present, the utility will disable network adapters and use the local account to leave the domain, then re-enable the network adapter before rebooting. If a domain controller cannot be contacted, the device will need to be manually deleted from the domain.
+9.	**DomainLeavePass** – This is required if the domain leave user is specified.
+10.	**ProvisioningPack** – This is the name of the provisioning package used for bulk enrollment in Azure Active Directory.
 
 ## Determine your delivery method and update Prepare-DeviceMigration.ps1
 The tool was designed to be delivered with two files – `Prepare-DeviceMigration.ps1` and `AADMigration.zip`. Create the zip file by adding the entire AADMigration folder to a compressed zip file. If your delivery mechanism supports it (for example, using group policy) you can place both files in the same directory and then run the PowerShell script.
